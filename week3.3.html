@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft10{font-size:30px;font-family:BZZZZZ+Roboto-Medium;color:#000000;}
+	.ft11{font-size:23px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft12{font-size:23px;font-family:BZZZZZ+Roboto-Medium;color:#000000;}
+	.ft13{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft14{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft15{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft16{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft17{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft18{font-size:21px;line-height:36px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page1-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file001.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:289px;white-space:nowrap" class="ft10">CMR Engineering College</p>
+<link rel="stylesheet" href="style.css" />
+<p style="position:absolute;top:310px;left:272px;white-space:nowrap" class="ft12">2022-26_I_CS_B_C Programming Lab</p>
+<p style="position:absolute;top:363px;left:136px;white-space:nowrap" class="ft12">C PROGRAMMING LAB_EXERCISE_CONDITIONAL STATEMENTS</p>
+<p style="position:absolute;top:416px;left:108px;white-space:nowrap" class="ft16">Attempt : 1<br/>Total Mark : 100<br/>Marks Obtained : 100</p>
+<p style="position:absolute;top:507px;left:362px;white-space:nowrap" class="ft12">Section 1 : CODING</p>
+<p style="position:absolute;top:560px;left:108px;white-space:nowrap" class="ft17">1. &#160;&#160;“DIWALI DAMAKKA” is the most successful event dedicated to children&#160;<br/>and families. The Event has more than 20 rides for children and adults and&#160;<br/>the organizers always ensure not to compromise on the safety of the&#160;<br/>visitors.</p>
+<p style="position:absolute;top:683px;left:108px;white-space:nowrap" class="ft17">To ensure the safety of the rides, the organizers have graded the rides in&#160;<br/>the fair according to the following conditions:</p>
+<p style="position:absolute;top:744px;left:108px;white-space:nowrap" class="ft18">Hurl Factor must be greater than 50.Spin Factor must be greater than&#160;<br/>60.Speed factor must be greater than 100.&#160;<br/>The grades are as follows:</p>
+<p style="position:absolute;top:843px;left:108px;white-space:nowrap" class="ft17">Grade is 10 if all three conditions are met.Grade is 9 if conditions (i) and (ii)&#160;<br/>are met.Grade is 8 if conditions (ii) and (iii) are met.Grade is 7 if conditions&#160;<br/>(i) and (iii) are met.Garde is 6 if only one condition is met.Grade is 5 if none&#160;<br/>of three conditions are met.</p>
+<p style="position:absolute;top:954px;left:108px;white-space:nowrap" class="ft17">Write a program to display the grade of the rides, given the values of hurl&#160;<br/>factor, spin factor and speed factor of the ride under consideration.</p>
+<p style="position:absolute;top:1027px;left:108px;white-space:nowrap" class="ft15"><i>Answer</i></p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft20{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft21{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft22{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft23{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft24{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft25{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page2-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file002.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft20">#include &lt;stdio.h&gt;</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft24">int main(){<br/>&#160; &#160; int hurl,spin,speed;<br/>&#160; &#160; scanf(&#34;%d %d %d&#34;,&amp;hurl,&amp;spin,&amp;speed);<br/>&#160; &#160; bool hurlpass=hurl&gt;50,<br/>&#160; &#160; &#160; &#160; &#160;spinpass=spin&gt;60,<br/>&#160; &#160; &#160; &#160; &#160;speedpass=speed&gt;100;</p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; int grade;<br/>&#160; &#160; if(hurlpass &amp;&amp; spinpass &amp;&amp; speedpass) &#160; grade=10;<br/>&#160; &#160; else if(hurlpass &amp;&amp; spinpass) &#160; &#160; &#160; &#160; &#160; grade=9;</p>
+<p style="position:absolute;top:337px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; else if(spinpass &amp;&amp; speedpass) &#160; &#160; &#160; &#160; &#160;grade=8;<br/>&#160; &#160; else if(hurlpass &amp;&amp; speedpass) &#160; &#160; &#160; &#160; &#160;grade=7;</p>
+<p style="position:absolute;top:382px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; else if(hurlpass || spinpass || speedpass) &#160;grade=6;<br/>&#160; &#160; else &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;grade=5;</p>
+<p style="position:absolute;top:428px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; switch(grade){<br/>&#160; &#160; }</p>
+<p style="position:absolute;top:474px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; printf(&#34;%d&#34;,grade);<br/>}</p>
+<p style="position:absolute;top:542px;left:108px;white-space:nowrap" class="ft21"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:542px;left:178px;white-space:nowrap" class="ft22">Correct</p>
+<p style="position:absolute;top:542px;left:691px;white-space:nowrap" class="ft21"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:611px;left:108px;white-space:nowrap" class="ft23">2. &#160;&#160;Sandy wants to design a body fat percentage calculation is as follows.</p>
+<p style="position:absolute;top:648px;left:108px;white-space:nowrap" class="ft23">BF% = 64 − ( 20 * (height/waist) )</p>
+<p style="position:absolute;top:697px;left:108px;white-space:nowrap" class="ft25">The list below comes from the American Council and shows the average&#160;<br/>percentages in specified groups.</p>
+<p style="position:absolute;top:758px;left:108px;white-space:nowrap" class="ft25">Essential fat: 2–5%Athletes: 6–13%Fitness: 14-17%Average: 18–<br/>24%Obese: 25%+&#160;</p>
+<p style="position:absolute;top:820px;left:108px;white-space:nowrap" class="ft21"><i>Answer</i></p>
+<p style="position:absolute;top:854px;left:108px;white-space:nowrap" class="ft24">#include&lt;stdio.h&gt;<br/>int main(){<br/>&#160; &#160; float height, waist;<br/>&#160; &#160; scanf(&#34;%f%f&#34;,&amp;height,&amp;waist);<br/>&#160; &#160; float bf=64-(20*(height/waist));<br/>&#160; &#160;&#160;<br/>&#160; &#160; printf(&#34;%.2f : &#34;,bf);<br/>&#160; &#160; if(bf&lt;=5.5) &#160; &#160; &#160; &#160; printf(&#34;Essential fat&#34;);<br/>&#160; &#160; else if(bf&lt;=13.5) &#160; printf(&#34;Athletes&#34;);</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft30{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft31{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft32{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft33{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft34{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft35{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page3-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file003.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft30">&#160; &#160; else if(bf&lt;=17.5) &#160; printf(&#34;Fitness&#34;);</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; else if(bf&lt;=24.5) &#160; printf(&#34;Average&#34;);<br/>&#160; &#160; else &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;printf(&#34;Obese&#34;);<br/>}</p>
+<p style="position:absolute;top:222px;left:108px;white-space:nowrap" class="ft31"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:222px;left:178px;white-space:nowrap" class="ft32">Correct</p>
+<p style="position:absolute;top:222px;left:691px;white-space:nowrap" class="ft31"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:291px;left:108px;white-space:nowrap" class="ft35">3. &#160;&#160;During the opening ceremony of &#34;Kalyani Jewellers&#34;, the management&#160;<br/>has announced discounts for the customers on the first day. Each&#160;<br/>customer gets a card with a character(alphabet/digit/special character)&#160;<br/>printed on it. Based on a character each customer gets a discount.&#160;</p>
+<p style="position:absolute;top:414px;left:108px;white-space:nowrap" class="ft35">Vikas, the manager of the Jewelry wants to write a program to get a&#160;<br/>character from the customer and check whether the given character is the&#160;<br/>alphabet, digit or special character to process the discount. Write a&#160;<br/>suitable code to complete this task.</p>
+<p style="position:absolute;top:537px;left:108px;white-space:nowrap" class="ft31"><i>Answer</i></p>
+<p style="position:absolute;top:571px;left:108px;white-space:nowrap" class="ft34">#include&lt;stdio.h&gt;<br/>int main(){</p>
+<p style="position:absolute;top:617px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; char ch;<br/>&#160; &#160; scanf(&#34;%c&#34;,&amp;ch);<br/>&#160; &#160; printf(&#34;'%c' is &#34;,ch);<br/>&#160; &#160; if(ch&gt;=48&amp;&amp;ch&lt;=57) &#160;printf(&#34;digit&#34;);</p>
+<p style="position:absolute;top:708px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; else if(ch&gt;=65&amp;&amp;ch&lt;=90 || ch&gt;=97&amp;&amp;ch&lt;=122) &#160;printf(&#34;alphabet&#34;);<br/>&#160; &#160; else &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;printf(&#34;special character&#34;);<br/>}</p>
+<p style="position:absolute;top:800px;left:108px;white-space:nowrap" class="ft31"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:800px;left:178px;white-space:nowrap" class="ft32">Correct</p>
+<p style="position:absolute;top:800px;left:691px;white-space:nowrap" class="ft31"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:868px;left:108px;white-space:nowrap" class="ft35">4. &#160;&#160;Muzammil is working in a water testing lab. He needs to classify the&#160;<br/>water into five categories based on its pH value. To simply his work he&#160;<br/>writes a program to display the category based on the pH value given in&#160;</p>
+<p style="position:absolute;top:942px;left:108px;white-space:nowrap" class="ft33">below flow chart. Help Muzammil to write a program.</p>
+<p style="position:absolute;top:1028px;left:108px;white-space:nowrap" class="ft33">&lt;/span&gt;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft40{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft41{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft42{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft43{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft44{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft45{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft46{font-size:21px;line-height:36px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page4-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file004.png" alt="background image"/>
+<p style="position:absolute;top:120px;left:108px;white-space:nowrap" class="ft40"><i>Answer</i></p>
+<p style="position:absolute;top:155px;left:108px;white-space:nowrap" class="ft44">#include&lt;stdio.h&gt;<br/>int main(){<br/>&#160; &#160; float ph;</p>
+<p style="position:absolute;top:223px;left:108px;white-space:nowrap" class="ft44">&#160; &#160; scanf(&#34;%f&#34;, &amp;ph);<br/>&#160; &#160;&#160;</p>
+<p style="position:absolute;top:269px;left:108px;white-space:nowrap" class="ft44">&#160; &#160; if(ph&lt;=2) &#160; &#160; &#160; printf(&#34;Very acidic&#34;);<br/>&#160; &#160; else if(ph&lt;7) &#160; printf(&#34;Acidic&#34;);<br/>&#160; &#160; else if(ph==7) &#160;printf(&#34;Neutral&#34;);<br/>&#160; &#160; else if(ph&lt;12) &#160;printf(&#34;Alkaline&#34;);</p>
+<p style="position:absolute;top:360px;left:108px;white-space:nowrap" class="ft44">&#160; &#160; else &#160; &#160; &#160; &#160; &#160; &#160;printf(&#34;Very alkaline&#34;);<br/>}</p>
+<p style="position:absolute;top:429px;left:108px;white-space:nowrap" class="ft40"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:429px;left:178px;white-space:nowrap" class="ft42">Correct</p>
+<p style="position:absolute;top:429px;left:691px;white-space:nowrap" class="ft40"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:497px;left:108px;white-space:nowrap" class="ft45">5. &#160;&#160;Seetha, a Maths teacher taught her students about leap year. She said&#160;<br/>students who told maximum correct answers give them a chocolate. Help&#160;</p>
+<p style="position:absolute;top:547px;left:108px;white-space:nowrap" class="ft43">the students to get a chocolate.</p>
+<p style="position:absolute;top:596px;left:108px;white-space:nowrap" class="ft40"><i>Answer</i></p>
+<p style="position:absolute;top:630px;left:108px;white-space:nowrap" class="ft41">#include&lt;stdio.h&gt;</p>
+<p style="position:absolute;top:653px;left:108px;white-space:nowrap" class="ft44">int main(){<br/>&#160; &#160; int year;</p>
+<p style="position:absolute;top:699px;left:108px;white-space:nowrap" class="ft44">&#160; &#160; scanf(&#34;%d&#34;,&amp;year);<br/>&#160; &#160; printf(&#34;%d: &#34;,year);<br/>&#160; &#160; if(year%400==0) &#160; &#160; &#160; &#160; printf(&#34;YES&#34;);<br/>&#160; &#160; else if(year%100==0) &#160; &#160;printf(&#34;NO&#34;);</p>
+<p style="position:absolute;top:790px;left:108px;white-space:nowrap" class="ft44">&#160; &#160; else if(year%4==0) &#160; &#160; &#160;printf(&#34;YES&#34;);<br/>&#160; &#160; else &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;printf(&#34;NO&#34;);<br/>}</p>
+<p style="position:absolute;top:881px;left:108px;white-space:nowrap" class="ft40"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:881px;left:178px;white-space:nowrap" class="ft42">Correct</p>
+<p style="position:absolute;top:881px;left:691px;white-space:nowrap" class="ft40"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:950px;left:108px;white-space:nowrap" class="ft45">6. &#160;&#160;Total Expenses<br/>&#160;<br/>The much awaited event at the entertainment industry every year is the&#160;<br/>&#34;Screen Awards&#34;. This year the event is going to be organized on December&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft50{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft51{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft52{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft53{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft54{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft55{font-size:21px;line-height:36px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft56{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page5-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file005.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft55">25 to honour the Artists for their professional excellence in Cinema. The&#160;<br/>Organizers has this time decided to launch an online portal to facilitate&#160;<br/>easy booking of the Award show’s tickets.<br/>&#160;</p>
+<p style="position:absolute;top:231px;left:108px;white-space:nowrap" class="ft55">They specifically wanted to provide an option for bulk booking in the portal,&#160;<br/>wherein there are many discounts announced. Write a program to help the&#160;<br/>Organizers to create the portal as per the requirement given below.<br/>Given the ticket cost as 'X'.</p>
+<p style="position:absolute;top:354px;left:108px;white-space:nowrap" class="ft54">If the number of tickets purchased is less than 50, there is no discount.<br/>If the number of tickets purchased is between 50 and 100 (both inclusive),&#160;<br/>then 10% discount is offered.</p>
+<p style="position:absolute;top:453px;left:108px;white-space:nowrap" class="ft54">If the number of tickets purchased is between 101 and 200(both inclusive),&#160;<br/>20% discount is offered.</p>
+<p style="position:absolute;top:514px;left:108px;white-space:nowrap" class="ft54">If the number of tickets purchased is between 201 and 400(both inclusive),&#160;<br/>30% discount is offered.</p>
+<p style="position:absolute;top:576px;left:108px;white-space:nowrap" class="ft54">If the number of tickets purchased is between 401 and 500(both inclusive),&#160;<br/>40% discount is offered.</p>
+<p style="position:absolute;top:637px;left:108px;white-space:nowrap" class="ft54">If the number of tickets purchased is greater than 500, then 50% discount&#160;<br/>is offered.</p>
+<p style="position:absolute;top:723px;left:108px;white-space:nowrap" class="ft51"><i>Answer</i></p>
+<p style="position:absolute;top:758px;left:108px;white-space:nowrap" class="ft56">#include&lt;stdio.h&gt;<br/>int main(){<br/>&#160; &#160; int cost, count;<br/>&#160; &#160; scanf(&#34;%d%d&#34;,&amp;cost,&amp;count);<br/>&#160; &#160; int discount=count&lt;50?0:count&lt;101?10:count&lt;201?20:count&lt;401?<br/>30:count&lt;501?40:50;<br/>&#160; &#160; double totalcost=cost*count*(1-discount/100.0);<br/>&#160; &#160; printf(&#34;%.2lf&#34;,totalcost);<br/>&#160; &#160; if(1);</p>
+<p style="position:absolute;top:963px;left:108px;white-space:nowrap" class="ft56">&#160; &#160; switch(discount){}<br/>&#160; &#160;&#160;<br/>}</p>
+<p style="position:absolute;top:1055px;left:108px;white-space:nowrap" class="ft51"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:1055px;left:178px;white-space:nowrap" class="ft53">Correct</p>
+<p style="position:absolute;top:1055px;left:691px;white-space:nowrap" class="ft51"><i>Marks : 10/10</i></p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft60{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft61{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft62{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft63{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft64{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft65{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft66{font-size:21px;line-height:36px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page6-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file006.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft64">7. &#160;&#160;Ravi has different types of triangles in his hand. He wants to classify&#160;<br/>them as acute, obtuse, or right angled triangles. The sides of the triangle&#160;<br/>have to follow the Triangle Inequality theorem. Write a program to obtain&#160;<br/>three sides of the triangle with the third side being the greatest and&#160;<br/>classify them as acute, obtuse, and right angled.</p>
+<p style="position:absolute;top:280px;left:108px;white-space:nowrap" class="ft61"><i>Answer</i></p>
+<p style="position:absolute;top:315px;left:108px;white-space:nowrap" class="ft65">#include&lt;stdio.h&gt;<br/>int main(){</p>
+<p style="position:absolute;top:360px;left:108px;white-space:nowrap" class="ft65">&#160; &#160; float a,b,c;<br/>&#160; &#160; scanf(&#34;%f%f%f&#34;,&amp;a,&amp;b,&amp;c);</p>
+<p style="position:absolute;top:406px;left:108px;white-space:nowrap" class="ft65">&#160; &#160;&#160;<br/>&#160; &#160; double diff = c*c-((a*a)+(b*b));<br/>&#160; &#160; if(c&gt;=a+b){<br/>&#160; &#160; &#160; &#160; printf(&#34;Invalid sides&#34;);<br/>&#160; &#160; }<br/>&#160; &#160; else if(diff&lt;0) &#160; &#160; printf(&#34;Acute angled triangle&#34;);<br/>&#160; &#160; else if(diff&gt;0) &#160; &#160; printf(&#34;Obtuse angled triangle&#34;);<br/>&#160; &#160; else &#160; &#160; &#160; &#160; &#160; &#160;printf(&#34;Right angled triangle&#34;);<br/>}</p>
+<p style="position:absolute;top:634px;left:108px;white-space:nowrap" class="ft61"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:634px;left:178px;white-space:nowrap" class="ft63">Correct</p>
+<p style="position:absolute;top:634px;left:691px;white-space:nowrap" class="ft61"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:703px;left:108px;white-space:nowrap" class="ft60">8. &#160;&#160;Minimum and Maximum</p>
+<p style="position:absolute;top:740px;left:108px;white-space:nowrap" class="ft64">&#160;<br/>The ExConFair is the region's largest trade fair on Construction Equipments&#160;<br/>&amp;amp; Technology. The Event organizers hired college students as&#160;<br/>volunteers to work at the fair as the event is targeted to be attended by&#160;<br/>approx. 30 million visitors.</p>
+<p style="position:absolute;top:888px;left:108px;white-space:nowrap" class="ft60">&#160;</p>
+<p style="position:absolute;top:925px;left:108px;white-space:nowrap" class="ft64">At the Office in the fair, there are two guards who count how many times a&#160;<br/>volunteer enters into the fair ground. Though the duty of a guard is 24 hour&#160;<br/>in a day, but sometimes they fall asleep during their duty and could not&#160;<br/>track the entry of volunteers in the fair ground. But one better thing is that&#160;<br/>they never fall asleep at the same time. At least one of them remains&#160;</p>
+<p style="position:absolute;top:1048px;left:108px;white-space:nowrap" class="ft60">awake and counts who enters into the office. Now the Event Head wants to&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft70{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft71{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft72{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft73{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft74{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft75{font-size:21px;line-height:36px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft76{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page7-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file007.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft74">calculate how many times a volunteer has entered into the fair ground. He&#160;<br/>asked to the guard and they give him two integers A and B, count of first&#160;<br/>guard and second guard respectively.<br/>Help the Event Head to count the minimum and maximum number of&#160;<br/>times a volunteer could have entered into the fair ground.</p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft71"><i>Answer</i></p>
+<p style="position:absolute;top:302px;left:108px;white-space:nowrap" class="ft72">#include&lt;stdio.h&gt;</p>
+<p style="position:absolute;top:325px;left:108px;white-space:nowrap" class="ft76">int main(){<br/>&#160; &#160; int a,b;<br/>&#160; &#160; scanf(&#34;%d%d&#34;,&amp;a,&amp;b);<br/>&#160; &#160; int min=a&gt;b?a:b;<br/>&#160; &#160; int max=a+b;<br/>&#160; &#160; printf(&#34;%d %d&#34;,min,max);<br/>&#160; &#160; if(1);<br/>}</p>
+<p style="position:absolute;top:531px;left:108px;white-space:nowrap" class="ft71"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:531px;left:178px;white-space:nowrap" class="ft73">Correct</p>
+<p style="position:absolute;top:531px;left:691px;white-space:nowrap" class="ft71"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:599px;left:108px;white-space:nowrap" class="ft75">9. &#160;&#160;Ticket type<br/>&#160;</p>
+<p style="position:absolute;top:673px;left:108px;white-space:nowrap" class="ft70">&#34;FantasyKingdom&#34; is a brand new Amusement park that is going to be&#160;</p>
+<p style="position:absolute;top:698px;left:108px;white-space:nowrap" class="ft74">inaugurated shortly in the City and is promoted as the place for breath-<br/>taking charm. The theme park has more than 30 exhilarating and craziest&#160;<br/>rides and as a special feature of the park, the park Authorities has placed&#160;</p>
+<p style="position:absolute;top:772px;left:108px;white-space:nowrap" class="ft74">many Ticketing Kiosks at the entrance which would facilitate the public to&#160;<br/>purchase their entrance tickets and ride tickets.</p>
+<p style="position:absolute;top:833px;left:108px;white-space:nowrap" class="ft74">The Entrance Tickets are to be issued typically based on age, as there are&#160;<br/>different fare for different age groups. There are 2 types of tickets – Child&#160;<br/>ticket and Adult ticket. If the age given is less than 15, then Child ticket is&#160;<br/>issued whereas for age greater than equal to 15, Adult ticket is issued.&#160;</p>
+<p style="position:absolute;top:932px;left:108px;white-space:nowrap" class="ft70">Write a piece of code to program this requirement in the ticketing kiosks.</p>
+<p style="position:absolute;top:981px;left:108px;white-space:nowrap" class="ft71"><i>Answer</i></p>
+<p style="position:absolute;top:1015px;left:108px;white-space:nowrap" class="ft76">#include&lt;stdio.h&gt;<br/>int main(){</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft80{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft81{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft82{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft83{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft84{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft85{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft86{font-size:21px;line-height:36px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page8-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file008.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft80">&#160; &#160; int age;</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft84">&#160; &#160; scanf(&#34;%d&#34;,&amp;age);<br/>&#160; &#160; if(age&lt;15) &#160;printf(&#34;Child Ticket&#34;);<br/>&#160; &#160; else &#160; &#160; &#160; &#160;printf(&#34;Adult Ticket&#34;);<br/>}</p>
+<p style="position:absolute;top:245px;left:108px;white-space:nowrap" class="ft81"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:245px;left:178px;white-space:nowrap" class="ft82">Correct</p>
+<p style="position:absolute;top:245px;left:691px;white-space:nowrap" class="ft81"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:314px;left:108px;white-space:nowrap" class="ft85">10. &#160;&#160;In a famous jewelry, customers are grouped according to age and&#160;<br/>gender.</p>
+<p style="position:absolute;top:387px;left:108px;white-space:nowrap" class="ft83">Group1 Males under 25 years old</p>
+<p style="position:absolute;top:424px;left:108px;white-space:nowrap" class="ft86">Group 2 Females under 25 years old<br/>Group 3 Males between 25 - 45 years old</p>
+<p style="position:absolute;top:498px;left:108px;white-space:nowrap" class="ft83">Group 4 Females between 25 - 45 years old</p>
+<p style="position:absolute;top:535px;left:108px;white-space:nowrap" class="ft83">Group 5 All people over 45 years old.</p>
+<p style="position:absolute;top:584px;left:108px;white-space:nowrap" class="ft83">Babu wants to write a program to display the customer's group. Help Babu.&#160;</p>
+<p style="position:absolute;top:634px;left:108px;white-space:nowrap" class="ft83">Note : Gender code for a male is 1 and for female is 2. Display Invalid if&#160;</p>
+<p style="position:absolute;top:658px;left:108px;white-space:nowrap" class="ft83">user enters other gender codes</p>
+<p style="position:absolute;top:707px;left:108px;white-space:nowrap" class="ft81"><i>Answer</i></p>
+<p style="position:absolute;top:742px;left:108px;white-space:nowrap" class="ft80">#include&lt;stdio.h&gt;</p>
+<p style="position:absolute;top:765px;left:108px;white-space:nowrap" class="ft84">int main(){<br/>&#160; &#160; int age,gender;<br/>&#160; &#160; scanf(&#34;%d%d&#34;,&amp;age,&amp;gender);<br/>&#160; &#160; if(gender!=1&amp;&amp;gender!=2){<br/>&#160; &#160; &#160; &#160; printf(&#34;Invalid&#34;);<br/>&#160; &#160; &#160; &#160; return 0;<br/>&#160; &#160; }<br/>&#160; &#160; printf(&#34;Group &#34;);<br/>&#160; &#160; if(age&lt;25){<br/>&#160; &#160; &#160; &#160; if(gender==1) &#160; printf(&#34;1&#34;);<br/>&#160; &#160; &#160; &#160; else &#160; &#160; &#160; &#160; &#160; &#160;printf(&#34;2&#34;);<br/>&#160; &#160; }<br/>&#160; &#160; else if(age&lt;=45){</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft90{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft91{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft92{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft93{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page9-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file009.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft90">&#160; &#160; &#160; &#160; if(gender==1) &#160; printf(&#34;3&#34;);</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft93">&#160; &#160; &#160; &#160; else &#160; &#160; &#160; &#160; &#160; &#160;printf(&#34;4&#34;);<br/>&#160; &#160; }<br/>&#160; &#160; else &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;printf(&#34;5&#34;);<br/>}</p>
+<p style="position:absolute;top:245px;left:108px;white-space:nowrap" class="ft91"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:245px;left:178px;white-space:nowrap" class="ft92">Correct</p>
+<p style="position:absolute;top:245px;left:691px;white-space:nowrap" class="ft91"><i>Marks : 10/10</i></p>
+</div>
+</body>
+</html>

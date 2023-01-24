@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft10{font-size:30px;font-family:BZZZZZ+Roboto-Medium;color:#000000;}
+	.ft11{font-size:23px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft12{font-size:23px;font-family:BZZZZZ+Roboto-Medium;color:#000000;}
+	.ft13{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft14{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft15{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft16{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page1-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file001.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:289px;white-space:nowrap" class="ft10">CMR Engineering College</p>
+<link rel="stylesheet" href="style.css" />
+<p style="position:absolute;top:416px;left:108px;white-space:nowrap" class="ft16">Attempt : 1<br/>Total Mark : 100<br/>Marks Obtained : 76.5</p>
+<p style="position:absolute;top:507px;left:362px;white-space:nowrap" class="ft12">Section 1 : CODING</p>
+<p style="position:absolute;top:560px;left:108px;white-space:nowrap" class="ft14">1. &#160;&#160;Write a C program to find the roots of a Quadratic equation. &#160;</p>
+<p style="position:absolute;top:609px;left:108px;white-space:nowrap" class="ft15"><i>Answer</i></p>
+<p style="position:absolute;top:643px;left:108px;white-space:nowrap" class="ft16">// You are using GCC<br/>#include &lt;stdio.h&gt;<br/>#include &lt;math.h&gt;<br/>int main(){<br/>&#160; &#160; float a,b,c;<br/>&#160; &#160; scanf(&#34;%f %f %f&#34;,&amp;a,&amp;b,&amp;c);<br/>&#160; &#160; float real=-b/(2*a);<br/>&#160; &#160; float d=b*b-4*a*c;<br/>&#160; &#160; float imaginary=sqrt(abs(d))/(2*a);<br/>&#160; &#160; if(d&gt;0){<br/>&#160; &#160; &#160; &#160; printf(&#34;root1 = %.2f and root2 = %.2f&#34;,real+imaginary,real-imaginary);<br/>&#160; &#160; }<br/>&#160; &#160; else if(d==0){<br/>&#160; &#160; &#160; &#160; printf(&#34;root1 = root2 = %.2f;&#34;,real);</p>
+<p style="position:absolute;top:963px;left:108px;white-space:nowrap" class="ft16">&#160; &#160; }<br/>&#160; &#160; else{<br/>&#160; &#160; &#160; &#160; printf(&#34;root1 = %.2f+%.2fi and root2 = %.2f-<br/>%.2fi&#34;,real,imaginary,real,imaginary);<br/>&#160; &#160; }</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft20{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft21{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft22{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft23{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft24{font-size:20px;font-family:CZZZZZ+Roboto;color:#ffa500;}
+	.ft25{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page2-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file002.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft20">}</p>
+<p style="position:absolute;top:154px;left:108px;white-space:nowrap" class="ft21"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:154px;left:178px;white-space:nowrap" class="ft22">Correct</p>
+<p style="position:absolute;top:154px;left:691px;white-space:nowrap" class="ft21"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:222px;left:108px;white-space:nowrap" class="ft23">2. &#160;&#160;Write the program for the simple, compound interest. &#160;</p>
+<p style="position:absolute;top:271px;left:108px;white-space:nowrap" class="ft21"><i>Answer</i></p>
+<p style="position:absolute;top:306px;left:108px;white-space:nowrap" class="ft25">// You are using GCC<br/>#include &lt;stdio.h&gt;</p>
+<p style="position:absolute;top:351px;left:108px;white-space:nowrap" class="ft20">#include&lt;math.h&gt;</p>
+<p style="position:absolute;top:397px;left:108px;white-space:nowrap" class="ft20">//long double pow(long double a,long double x);</p>
+<p style="position:absolute;top:420px;left:108px;white-space:nowrap" class="ft25">int main(){<br/>&#160; &#160; float p,t,r;<br/>&#160; &#160; scanf(&#34;%f %f %f&#34;,&amp;p,&amp;t,&amp;r);<br/>&#160; &#160; r/=100;</p>
+<p style="position:absolute;top:511px;left:108px;white-space:nowrap" class="ft25">&#160; &#160; float si=p*r*t;<br/>&#160; &#160; float ci=p*pow(1+r,t)-p;<br/>&#160; &#160; printf(&#34;Simple interest = %.2f\n&#34;,si);<br/>&#160; &#160; printf(&#34;Compound interest = %.2f&#34;,ci);</p>
+<p style="position:absolute;top:603px;left:108px;white-space:nowrap" class="ft25">}<br/>long double powd(long double a,long double x){<br/>&#160; &#160; long double result=1;<br/>&#160; &#160; for(int i=1;i&lt;=x;i++) result *=a;<br/>&#160; &#160; return result;<br/>}</p>
+<p style="position:absolute;top:763px;left:108px;white-space:nowrap" class="ft21"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:763px;left:178px;white-space:nowrap" class="ft24">Partially correct</p>
+<p style="position:absolute;top:763px;left:685px;white-space:nowrap" class="ft21"><i>Marks : 7.5/10</i></p>
+<p style="position:absolute;top:831px;left:108px;white-space:nowrap" class="ft23">3. &#160;&#160;Write a simple program that prints the results of all the operators&#160;</p>
+<p style="position:absolute;top:856px;left:108px;white-space:nowrap" class="ft23">available in C (including pre/ post-increment, bitwise and/or/not, etc.).&#160;</p>
+<p style="position:absolute;top:905px;left:108px;white-space:nowrap" class="ft21"><i>Answer</i></p>
+<p style="position:absolute;top:939px;left:108px;white-space:nowrap" class="ft20">// You are using GCC</p>
+<p style="position:absolute;top:962px;left:108px;white-space:nowrap" class="ft25">#include &lt;stdio.h&gt;<br/>unsigned int notoperator(int num);<br/>int main()<br/>{<br/>&#160; &#160; int a,b;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft30{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft31{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft32{font-size:20px;font-family:CZZZZZ+Roboto;color:#ff0000;}
+	.ft33{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft34{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft35{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page3-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file003.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft30">&#160; &#160; scanf(&#34;%d%d&#34;,&amp;a,&amp;b);</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; printf(&#34;the arithmetic operators result is %d %d %d %d\n&#34;,a+b,a-b,a*b,a/b);<br/>&#160; &#160; printf(&#34;the relational operators result is %d %d %d %d\n&#34;,a&gt;b,a&lt;b,a&gt;=b,a&lt;=b);<br/>&#160; &#160; printf(&#34;the logical operators result is %d %d %d\n&#34;,a&amp;&amp;b,a||b,a||b);<br/>&#160; &#160; printf(&#34;the increment operator result is %d %d %d %d\n&#34;,a++,++a,b++,++b);<br/>&#160; &#160; printf(&#34;the decrement operator result is %d %d %d %d\n&#34;,a--,--a,b--,--b);<br/>&#160; &#160; printf(&#34;the bitwise AND operator result is %d\n&#34;,a&amp;b);</p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; printf(&#34;the bitwise OR operator result is %d\n&#34;,a|b);<br/>&#160; &#160; printf(&#34;the bitwise NOT&#160;operator result is %u&#34;,notoperator(a));<br/>}</p>
+<p style="position:absolute;top:337px;left:108px;white-space:nowrap" class="ft34">unsigned int notoperator(int num){<br/>&#160; &#160; unsigned int preresult=0;</p>
+<p style="position:absolute;top:382px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; while(num!=0){<br/>&#160; &#160; &#160; &#160; preresult &lt;&lt;=1;</p>
+<p style="position:absolute;top:428px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; &#160; &#160; preresult+=!(num%2);<br/>&#160; &#160; &#160; &#160; num=num&gt;&gt;1;</p>
+<p style="position:absolute;top:474px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; }<br/>&#160; &#160; unsigned int result=0;<br/>&#160; &#160; while(preresult!=0){<br/>&#160; &#160; &#160; &#160; result&lt;&lt;=1;</p>
+<p style="position:absolute;top:565px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; &#160; &#160; result+=preresult%2;<br/>&#160; &#160; &#160; &#160; preresult=preresult&gt;&gt;1;<br/>&#160; &#160; }</p>
+<p style="position:absolute;top:634px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; return result;<br/>}</p>
+<p style="position:absolute;top:702px;left:108px;white-space:nowrap" class="ft31"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:702px;left:178px;white-space:nowrap" class="ft32">Wrong</p>
+<p style="position:absolute;top:702px;left:702px;white-space:nowrap" class="ft31"><i>Marks : 0/10</i></p>
+<p style="position:absolute;top:771px;left:108px;white-space:nowrap" class="ft35">4. &#160;&#160;A building has 10 floors with a floor height of 3 meters each. A ball is&#160;<br/>dropped from the top of the building. Find the time taken by the ball to&#160;<br/>reach each floor. (Use the formula s = ut+(1/2)at^2 where u and a are the&#160;<br/>initial velocity in m/sec (= 0) and acceleration in m/sec^2 (= 9.8 m/s^2)).</p>
+<p style="position:absolute;top:894px;left:108px;white-space:nowrap" class="ft31"><i>Answer</i></p>
+<p style="position:absolute;top:928px;left:108px;white-space:nowrap" class="ft34">#include &lt;stdio.h&gt;<br/>#include &lt;math.h&gt;<br/>int main(){<br/>&#160; &#160; printf(&#34;%.2f&#34;,sqrt(30/4.9));<br/>}</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft40{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft41{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft42{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft43{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft44{font-size:20px;font-family:CZZZZZ+Roboto;color:#ffa500;}
+	.ft45{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft46{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page4-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file004.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft40"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:108px;left:178px;white-space:nowrap" class="ft41">Correct</p>
+<p style="position:absolute;top:108px;left:691px;white-space:nowrap" class="ft40"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:177px;left:108px;white-space:nowrap" class="ft45">5. &#160;&#160;Ramu and Somu are going on a picnic. Ramu packs m apples, n&#160;<br/>oranges. Somu packs m1 more apples than Ramu and n1 more oranges&#160;<br/>than Ramu.</p>
+<p style="position:absolute;top:275px;left:108px;white-space:nowrap" class="ft45">If Somu eats x of his apples and Ramu eats y of Somu's oranges, how&#160;<br/>many apples and oranges are left in total?</p>
+<p style="position:absolute;top:349px;left:108px;white-space:nowrap" class="ft40"><i>Answer</i></p>
+<p style="position:absolute;top:383px;left:108px;white-space:nowrap" class="ft43">// You are using GCC</p>
+<p style="position:absolute;top:406px;left:108px;white-space:nowrap" class="ft46">#include&lt;stdio.h&gt;<br/>int main(){<br/>&#160; &#160; int m,n,m1,n1,x,y;<br/>&#160; &#160; scanf(&#34;%d %d %d %d %d %d&#34;,&amp;m,&amp;n,&amp;m1,&amp;n1,&amp;x,&amp;y);<br/>&#160; &#160; int remApples=m+m1+1;<br/>&#160; &#160; int remOranges=n+n1+1;<br/>&#160; &#160; printf(&#34;%d %d&#34;,remApples,remOranges);<br/>}</p>
+<p style="position:absolute;top:612px;left:108px;white-space:nowrap" class="ft40"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:612px;left:178px;white-space:nowrap" class="ft44">Partially correct</p>
+<p style="position:absolute;top:612px;left:702px;white-space:nowrap" class="ft40"><i>Marks : 1/10</i></p>
+<p style="position:absolute;top:680px;left:108px;white-space:nowrap" class="ft45">6. &#160;&#160;There are 3 friends named John, Ram, Joseph who worked together.&#160;<br/>After their work, they spent their money. Given their salaries and&#160;<br/>expenditures, find the friend who has more money.&#160;</p>
+<p style="position:absolute;top:779px;left:108px;white-space:nowrap" class="ft40"><i>Answer</i></p>
+<p style="position:absolute;top:813px;left:108px;white-space:nowrap" class="ft46">// You are using GCC<br/>#include &lt;stdio.h&gt;</p>
+<p style="position:absolute;top:859px;left:108px;white-space:nowrap" class="ft46">#include &lt;math.h&gt;<br/>int main(){</p>
+<p style="position:absolute;top:904px;left:108px;white-space:nowrap" class="ft46">&#160; &#160; long double johnsal, ramsal, josephsal, johnexp, ramexp, josephexp;<br/>&#160; &#160; scanf(&#34;%Lf%Lf%Lf%Lf%Lf%Lf&#34;, &amp;johnsal, &amp;ramsal, &amp;josephsal, &amp;johnexp,&#160;</p>
+<p style="position:absolute;top:950px;left:108px;white-space:nowrap" class="ft46">&amp;ramexp, &amp;josephexp);<br/>&#160; &#160;&#160;<br/>&#160; &#160; long double john=johnsal-johnexp;<br/>&#160; &#160; long double ram =ramsal -ramexp;<br/>&#160; &#160; long double joseph=josephsal-josephexp;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft50{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft51{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft52{font-size:20px;font-family:CZZZZZ+Roboto;color:#ffa500;}
+	.ft53{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft54{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft55{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft56{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page5-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file005.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft50">&#160; &#160; long double max;</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft55">&#160; &#160; if(john&gt;ram &amp;&amp; john&gt;joseph) max=john;<br/>&#160; &#160; if(ram&gt;john &amp;&amp; ram&gt;joseph) max=ram;<br/>&#160; &#160; if(joseph&gt;ram &amp;&amp; joseph&gt;john) max=joseph;<br/>&#160; &#160;&#160;<br/>&#160; &#160; printf(&#34;%.0Lf&#34;,max);<br/>}</p>
+<p style="position:absolute;top:291px;left:108px;white-space:nowrap" class="ft51"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:291px;left:178px;white-space:nowrap" class="ft52">Partially correct</p>
+<p style="position:absolute;top:291px;left:702px;white-space:nowrap" class="ft51"><i>Marks : 8/10</i></p>
+<p style="position:absolute;top:359px;left:108px;white-space:nowrap" class="ft56">7. &#160;&#160;Aakash felt very bored to do math homework. As he was interested to&#160;<br/>play with his friends, he needs your help to do the homework. Help him by&#160;<br/>writing a program to automate the work. He gave a number which is&#160;</p>
+<p style="position:absolute;top:433px;left:108px;white-space:nowrap" class="ft56">greater than 10. Your program needs to calculate perimeter of a rectangle&#160;<br/>using the given number. The last digit of the number is the breadth and the&#160;<br/>remaining digits correspond to the length.</p>
+<p style="position:absolute;top:519px;left:108px;white-space:nowrap" class="ft53">&#160;Eg:</p>
+<p style="position:absolute;top:556px;left:108px;white-space:nowrap" class="ft53">-&gt; &#160;If num is 23, length =2; breadth = 3.</p>
+<p style="position:absolute;top:593px;left:108px;white-space:nowrap" class="ft53">-&gt; &#160;If num is 562, length =56; breadth = 2.</p>
+<p style="position:absolute;top:642px;left:108px;white-space:nowrap" class="ft51"><i>Answer</i></p>
+<p style="position:absolute;top:677px;left:108px;white-space:nowrap" class="ft55">#include&lt;stdio.h&gt;<br/>int main(){<br/>&#160; &#160; int l,b,input;<br/>&#160; &#160; scanf(&#34;%d&#34;,&amp;input);<br/>&#160; &#160; if(input&lt;11){<br/>&#160; &#160; &#160; &#160; printf(&#34;-1&#34;);<br/>&#160; &#160; &#160; &#160; return 0;<br/>&#160; &#160; }<br/>&#160; &#160; b=input%10;<br/>&#160; &#160; l=input/10;<br/>&#160; &#160; printf(&#34;%d&#34;,2*(l+b));<br/>}</p>
+<p style="position:absolute;top:974px;left:108px;white-space:nowrap" class="ft51"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:974px;left:178px;white-space:nowrap" class="ft54">Correct</p>
+<p style="position:absolute;top:974px;left:691px;white-space:nowrap" class="ft51"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:1042px;left:108px;white-space:nowrap" class="ft53">8. &#160;&#160;Francis is trying to calculate his water tax by himself.</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft60{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft61{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft62{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft63{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft64{font-size:21px;line-height:36px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft65{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft66{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page6-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file006.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft60">Take negative inputs as positive values.</p>
+<p style="position:absolute;top:145px;left:108px;white-space:nowrap" class="ft60">Write a program to compute the water tax using ternary operator</p>
+<p style="position:absolute;top:182px;left:108px;white-space:nowrap" class="ft65">The water tax slab is as follows:<br/>If units &lt;100, then cost is Rs.1 per unit.If 100&gt;=units&lt;=500, then cost is&#160;<br/>Rs.1.5 per unitIf units &gt; 500, then cost is Rs.3 per unit.</p>
+<p style="position:absolute;top:280px;left:108px;white-space:nowrap" class="ft61"><i>Answer</i></p>
+<p style="position:absolute;top:315px;left:108px;white-space:nowrap" class="ft66">#include&lt;math.h&gt;<br/>#include&lt;stdio.h&gt;</p>
+<p style="position:absolute;top:360px;left:108px;white-space:nowrap" class="ft66">int main(){<br/>&#160; &#160; float volume;</p>
+<p style="position:absolute;top:406px;left:108px;white-space:nowrap" class="ft66">&#160; &#160; scanf(&#34;%f&#34;,&amp;volume);<br/>&#160; &#160; volume = volume&lt;0 ? -volume : volume;<br/>&#160; &#160;&#160;<br/>&#160; &#160; float cost = volume&lt;100 ? volume : volume&lt;501? volume*1.5 : volume*3;<br/>&#160; &#160; printf(&#34;%.2f&#34;,cost);<br/>}</p>
+<p style="position:absolute;top:566px;left:108px;white-space:nowrap" class="ft61"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:566px;left:178px;white-space:nowrap" class="ft63">Correct</p>
+<p style="position:absolute;top:566px;left:691px;white-space:nowrap" class="ft61"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:634px;left:108px;white-space:nowrap" class="ft60">9. &#160;&#160;Sasikumar is a mathematics teacher and he is preparing a question&#160;</p>
+<p style="position:absolute;top:659px;left:108px;white-space:nowrap" class="ft65">paper of his own, So he need to calculate the answers for the questions he&#160;<br/>prepared without any errors. As he is busy with his work he has no time to&#160;<br/>make it.</p>
+<p style="position:absolute;top:758px;left:108px;white-space:nowrap" class="ft60">Write the program and trace the output for the following expressions:</p>
+<p style="position:absolute;top:807px;left:108px;white-space:nowrap" class="ft60">a) x = a + b * 5 / 4 + c % 3 * 5, where a, b and c are variables ( inputs ).</p>
+<p style="position:absolute;top:844px;left:108px;white-space:nowrap" class="ft60">b) y = u &gt;v ? u : v ; where u and v are variables ( inputs ).</p>
+<p style="position:absolute;top:881px;left:108px;white-space:nowrap" class="ft60">c) z = ++i&amp;amp;&amp;amp; ++j &amp;amp;&amp;amp; ++k; where i, j, and k are variables&#160;</p>
+<p style="position:absolute;top:905px;left:108px;white-space:nowrap" class="ft60">( inputs ).</p>
+<p style="position:absolute;top:954px;left:108px;white-space:nowrap" class="ft61"><i>Answer</i></p>
+<p style="position:absolute;top:989px;left:108px;white-space:nowrap" class="ft66">#include&lt;stdio.h&gt;<br/>int main(){<br/>&#160; &#160; int a,b,u,v;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft70{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft71{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft72{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft73{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft74{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft75{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page7-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file007.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft70">&#160; &#160; int c,i,j,k;</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft74">&#160; &#160; scanf(&#34;%d%d%d%d%d%d%d%d&#34;,&amp;a,&amp;b,&amp;c,&amp;u,&amp;v,&amp;i,&amp;j,&amp;k);<br/>&#160; &#160;&#160;<br/>&#160; &#160; printf(&#34;x=%d\n&#34;,a+b*5/4+c%3*5);<br/>&#160; &#160; printf(&#34;y=%d\n&#34;,u&gt;v?u:v);<br/>&#160; &#160; printf(&#34;z=%d&#34;,++i&amp;&amp;++j&amp;&amp;++k);<br/>}</p>
+<p style="position:absolute;top:291px;left:108px;white-space:nowrap" class="ft71"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:291px;left:178px;white-space:nowrap" class="ft72">Correct</p>
+<p style="position:absolute;top:291px;left:691px;white-space:nowrap" class="ft71"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:359px;left:108px;white-space:nowrap" class="ft75">10. &#160;&#160;Lokesh is designing a micro-controller for finding the maximum power&#160;<br/>usage in a system. In order to implement this, he has to check whether the&#160;<br/>input voltage has any values less than or equal to it such that its sum and&#160;</p>
+<p style="position:absolute;top:433px;left:108px;white-space:nowrap" class="ft75">bitwise OR with the given voltage is the same. Help him write a code to&#160;<br/>implement the same.</p>
+<p style="position:absolute;top:507px;left:108px;white-space:nowrap" class="ft71"><i>Answer</i></p>
+<p style="position:absolute;top:541px;left:108px;white-space:nowrap" class="ft74">#include&lt;stdio.h&gt;<br/>int main(){<br/>&#160; &#160; int vol;<br/>&#160; &#160; scanf(&#34;%d&#34;,&amp;vol);<br/>&#160; &#160; int count=0;<br/>&#160; &#160; for(int i=0; i&lt;=vol; i++) count += (vol+i)==(vol|i)?1:0;<br/>&#160; &#160; printf(&#34;%d&#34;,count);<br/>}</p>
+<p style="position:absolute;top:747px;left:108px;white-space:nowrap" class="ft71"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:747px;left:178px;white-space:nowrap" class="ft72">Correct</p>
+<p style="position:absolute;top:747px;left:691px;white-space:nowrap" class="ft71"><i>Marks : 10/10</i></p>
+</div>
+</body>
+</html>

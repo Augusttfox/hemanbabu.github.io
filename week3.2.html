@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft10{font-size:30px;font-family:BZZZZZ+Roboto-Medium;color:#000000;}
+	.ft11{font-size:23px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft12{font-size:23px;font-family:BZZZZZ+Roboto-Medium;color:#000000;}
+	.ft13{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft14{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft15{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft16{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft17{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page1-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file001.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:289px;white-space:nowrap" class="ft10">CMR Engineering College</p>
+<link rel="stylesheet" href="style.css" />
+<p style="position:absolute;top:363px;left:131px;white-space:nowrap" class="ft12">C PROGRAMMING_AUTOMATA FIX_CONDITIONAL STATEMENTS</p>
+<p style="position:absolute;top:416px;left:108px;white-space:nowrap" class="ft16">Attempt : 1<br/>Total Mark : 100<br/>Marks Obtained : 98</p>
+<p style="position:absolute;top:507px;left:336px;white-space:nowrap" class="ft12">Section 1 : Automata Fix</p>
+<p style="position:absolute;top:560px;left:108px;white-space:nowrap" class="ft17">1. &#160;&#160;Write a program to calculate and print the Electricity bill of a given&#160;<br/>customer. The customer id., name, and unit consumed by the user should&#160;<br/>be taken from the keyboard and display the total amount to pay to the&#160;<br/>customer. The charge is as follow :</p>
+<p style="position:absolute;top:695px;left:108px;white-space:nowrap" class="ft17">If the bill exceeds Rs. 400 then a surcharge of 15% will be charged and the&#160;<br/>minimum bill should be Rs. 100/-</p>
+<p style="position:absolute;top:769px;left:108px;white-space:nowrap" class="ft15"><i>Answer</i></p>
+<p style="position:absolute;top:803px;left:108px;white-space:nowrap" class="ft16">#include &lt;stdio.h&gt;<br/>#include &lt;string.h&gt; &#160;<br/>int main()<br/>{ &#160;<br/>&#160; &#160;int custid, conu;<br/>&#160; &#160;float chg, surchg=0, gramt,netamt;<br/>&#160; &#160;char connm[25];</p>
+<p style="position:absolute;top:963px;left:108px;white-space:nowrap" class="ft16">&#160; &#160;scanf(&#34;%d&#34;,&amp;custid);<br/>&#160; &#160;scanf(&#34;%s&#34;,connm);<br/>&#160; &#160;scanf(&#34;%d&#34;,&amp;conu);</p>
+<p style="position:absolute;top:1043px;left:108px;white-space:nowrap" class="ft13">&#160; &#160; float surchgper=0;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft20{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft21{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft22{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft23{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft24{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft25{font-size:20px;line-height:34px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page2-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file002.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft20">&#160; &#160; if(conu&lt;200){</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; &#160; &#160; chg=1.2;<br/>&#160; &#160; }<br/>&#160; &#160; else if(conu&lt;400){<br/>&#160; &#160; &#160; &#160; chg=1.5;<br/>&#160; &#160; }<br/>&#160; &#160; else if(conu&lt;600){</p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; &#160; &#160; chg=1.8;<br/>&#160; &#160; }<br/>&#160; &#160; else{</p>
+<p style="position:absolute;top:337px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; &#160; &#160; chg=2;<br/>&#160; &#160; }</p>
+<p style="position:absolute;top:382px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; gramt=conu*chg;<br/>&#160; &#160; if(gramt&gt;400) surchgper=0.15;</p>
+<p style="position:absolute;top:428px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; surchg=gramt*surchgper;<br/>&#160; &#160; netamt=gramt+surchg;<br/>&#160; &#160; printf(&#34;Electricity Bill\n&#34;);<br/>&#160; &#160;printf(&#34;Customer IDNO: %d\n&#34;,custid);<br/>&#160; &#160;printf(&#34;Customer Name: %s\n&#34;,connm);<br/>&#160; &#160;printf(&#34;unit Consumed: %d\n&#34;,conu);<br/>&#160; &#160;printf(&#34;Amount Charges @Rs. %.2f &#160;per unit: %.2f\n&#34;,chg,gramt);<br/>&#160; &#160;printf(&#34;Surchage Amount: %.2f\n&#34;,surchg);<br/>&#160; &#160;printf(&#34;Net Amount Paid By the Customer: %.2f\n&#34;,netamt);<br/><br/>} &#160;</p>
+<p style="position:absolute;top:714px;left:108px;white-space:nowrap" class="ft21"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:714px;left:178px;white-space:nowrap" class="ft22">Correct</p>
+<p style="position:absolute;top:714px;left:691px;white-space:nowrap" class="ft21"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:782px;left:108px;white-space:nowrap" class="ft23">2. &#160;&#160;Write a Menu-Driven program to compute the area of various&#160;</p>
+<p style="position:absolute;top:807px;left:108px;white-space:nowrap" class="ft23">geometrical shapes.</p>
+<p style="position:absolute;top:856px;left:108px;white-space:nowrap" class="ft21"><i>Answer</i></p>
+<p style="position:absolute;top:890px;left:108px;white-space:nowrap" class="ft24">#include &lt;stdio.h&gt;<br/>int main ()</p>
+<p style="position:absolute;top:936px;left:108px;white-space:nowrap" class="ft24">{<br/>&#160; &#160; &#160; int choice,r,l,w,b,h;<br/>&#160; &#160; &#160; float area;</p>
+<p style="position:absolute;top:1004px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; &#160; scanf(&#34;%d&#34;,&amp;choice);<br/>&#160; &#160; &#160; switch(choice)<br/>&#160; &#160; &#160; {</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft30{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft31{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft32{font-size:20px;font-family:CZZZZZ+Roboto;color:#ffa500;}
+	.ft33{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft34{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft35{font-size:20px;line-height:34px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft36{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page3-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file003.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft30">&#160; &#160; &#160; &#160; case 1:</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; &#160; &#160; &#160; &#160; scanf(&#34;%d&#34;,&amp;r);<br/>&#160; &#160; &#160; &#160; &#160; &#160; area=3.14*r*r;<br/>&#160; &#160; &#160; &#160; &#160; &#160; break;<br/>&#160; &#160; &#160; &#160; case 2:<br/>&#160; &#160; &#160; &#160; &#160; &#160; scanf(&#34;%d%d&#34;,&amp;l,&amp;w);<br/>&#160; &#160; &#160; &#160; &#160; &#160; area=l*w;</p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; &#160; &#160; &#160; &#160; break;<br/>&#160; &#160; &#160; &#160; case 3:<br/>&#160; &#160; &#160; &#160; &#160; &#160; scanf(&#34;%d%d&#34;,&amp;b,&amp;h);</p>
+<p style="position:absolute;top:337px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; &#160; &#160; &#160; &#160; area=b*h;<br/>&#160; &#160; &#160; &#160; &#160; &#160; break;</p>
+<p style="position:absolute;top:382px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; &#160; &#160; default:<br/>&#160; &#160; &#160; &#160; &#160; &#160; printf(&#34;error&#34;);</p>
+<p style="position:absolute;top:428px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; &#160; &#160; &#160; &#160; break;<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; &#160; &#160; printf(&#34;%.2f&#34;,area);<br/>}</p>
+<p style="position:absolute;top:554px;left:108px;white-space:nowrap" class="ft31"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:554px;left:178px;white-space:nowrap" class="ft32">Partially correct</p>
+<p style="position:absolute;top:554px;left:702px;white-space:nowrap" class="ft31"><i>Marks : 8/10</i></p>
+<p style="position:absolute;top:622px;left:108px;white-space:nowrap" class="ft36">3. &#160;&#160;Write a program to find whether a character is an alphabet, digit or&#160;<br/>special character.</p>
+<p style="position:absolute;top:696px;left:108px;white-space:nowrap" class="ft31"><i>Answer</i></p>
+<p style="position:absolute;top:730px;left:108px;white-space:nowrap" class="ft34">// You are using GCC<br/>#include &lt;stdio.h&gt;<br/>int main() &#160;</p>
+<p style="position:absolute;top:799px;left:108px;white-space:nowrap" class="ft34">{ &#160;<br/>&#160; &#160; char sing_ch; &#160;<br/>&#160; &#160; scanf(&#34;%c&#34;, &amp;sing_ch); &#160;<br/>&#160; &#160; if(sing_ch&gt;=65&amp;&amp;sing_ch&lt;=90 || sing_ch&gt;=97&amp;&amp;sing_ch&lt;=122) &#160;</p>
+<p style="position:absolute;top:890px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; { &#160;<br/>&#160; &#160; &#160; &#160; printf(&#34;This is an alphabet.&#34;); &#160;</p>
+<p style="position:absolute;top:936px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; } &#160;<br/>&#160; &#160; else if(sing_ch&gt;=48 &amp;&amp; sing_ch&lt;=57)&#160;<br/>&#160; &#160; { &#160;</p>
+<p style="position:absolute;top:1004px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; &#160; &#160; printf(&#34;This is a digit.&#34;); &#160;<br/>&#160; &#160; } &#160;<br/>&#160; &#160; else&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft40{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft41{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft42{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft43{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft44{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft45{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft46{font-size:20px;line-height:34px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page4-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file004.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft40">&#160; &#160; { &#160;</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft44">&#160; &#160; &#160; &#160; printf(&#34;This is a special character.&#34;); &#160;<br/>&#160; &#160; } &#160;<br/>}</p>
+<p style="position:absolute;top:222px;left:108px;white-space:nowrap" class="ft41"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:222px;left:178px;white-space:nowrap" class="ft42">Correct</p>
+<p style="position:absolute;top:222px;left:691px;white-space:nowrap" class="ft41"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:291px;left:108px;white-space:nowrap" class="ft45">4. &#160;&#160;Write a program to accept a person's height in centimeters and&#160;<br/>categorize the person according to their height.</p>
+<p style="position:absolute;top:352px;left:108px;white-space:nowrap" class="ft43">If the height is less than 150cm, then the person is a Dwarf.</p>
+<p style="position:absolute;top:389px;left:108px;white-space:nowrap" class="ft43">If the height of the person is greater than or equal to 150cm and less than&#160;</p>
+<p style="position:absolute;top:414px;left:108px;white-space:nowrap" class="ft43">165cm, then the person is of average height.</p>
+<p style="position:absolute;top:451px;left:108px;white-space:nowrap" class="ft43">If the height of the person is greater than or equal to 165cm and less than&#160;</p>
+<p style="position:absolute;top:475px;left:108px;white-space:nowrap" class="ft43">or equal to 195cm, then the person is taller.</p>
+<p style="position:absolute;top:512px;left:108px;white-space:nowrap" class="ft43">Else, abnormal height.</p>
+<p style="position:absolute;top:562px;left:108px;white-space:nowrap" class="ft41"><i>Answer</i></p>
+<p style="position:absolute;top:596px;left:108px;white-space:nowrap" class="ft44">#include &lt;stdio.h&gt;<br/>int main()<br/>{<br/>&#160; &#160; float PerHeight;<br/>&#160; &#160; scanf(&#34;%f&#34;, &amp;PerHeight);</p>
+<p style="position:absolute;top:721px;left:108px;white-space:nowrap" class="ft44">&#160; &#160; if(PerHeight&lt;150) &#160; &#160; &#160; printf(&#34;The person is Dwarf.&#34;);<br/>&#160; &#160; else if(PerHeight&lt;165) &#160;printf(&#34;The person is average heighted.&#34;);<br/>&#160; &#160; else if(PerHeight&lt;=195) printf(&#34;The person is taller.&#34;);</p>
+<p style="position:absolute;top:790px;left:108px;white-space:nowrap" class="ft46">&#160; &#160; else &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;printf(&#34;Abnormal height.&#34;);<br/>}</p>
+<p style="position:absolute;top:870px;left:108px;white-space:nowrap" class="ft41"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:870px;left:178px;white-space:nowrap" class="ft42">Correct</p>
+<p style="position:absolute;top:870px;left:691px;white-space:nowrap" class="ft41"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:939px;left:108px;white-space:nowrap" class="ft43">5. &#160;&#160;Write a program to find whether the given year is a leap year or not.</p>
+<p style="position:absolute;top:988px;left:108px;white-space:nowrap" class="ft41"><i>Answer</i></p>
+<p style="position:absolute;top:1022px;left:108px;white-space:nowrap" class="ft44">// You are using GCC<br/>#include &lt;stdio.h&gt;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft50{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft51{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft52{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft53{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft54{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft55{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page5-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file005.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft50">int main()</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft54">{<br/>&#160; &#160; int chk_year;<br/>&#160; &#160; scanf(&#34;%d&#34;, &amp;chk_year);<br/>&#160; &#160; if ((chk_year % 400) == 0)<br/>&#160; &#160; &#160; &#160; printf(&#34;%d is a leap year.&#34;, chk_year);<br/>&#160; &#160; else if ((chk_year % 100) == 0)</p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft54">&#160; &#160; &#160; &#160; printf(&#34;%d is a not leap year.&#34;, chk_year);<br/>&#160; &#160; else if ((chk_year % 4) == 0)<br/>&#160; &#160; &#160; &#160; printf(&#34;%d is a leap year.&#34;, chk_year);</p>
+<p style="position:absolute;top:337px;left:108px;white-space:nowrap" class="ft54">&#160; &#160; else<br/>&#160; &#160; &#160; &#160; printf(&#34;%d is not a leap year.&#34;, chk_year);</p>
+<p style="position:absolute;top:382px;left:108px;white-space:nowrap" class="ft50">}</p>
+<p style="position:absolute;top:428px;left:108px;white-space:nowrap" class="ft51"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:428px;left:178px;white-space:nowrap" class="ft52">Correct</p>
+<p style="position:absolute;top:428px;left:691px;white-space:nowrap" class="ft51"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:496px;left:108px;white-space:nowrap" class="ft55">6. &#160;&#160;Write a program to accept a coordinate point in an XY coordinate&#160;<br/>system and determine in which quadrant the coordinate point lies.</p>
+<p style="position:absolute;top:570px;left:108px;white-space:nowrap" class="ft51"><i>Answer</i></p>
+<p style="position:absolute;top:605px;left:108px;white-space:nowrap" class="ft54">// You are using GCC<br/>#include &lt;stdio.h&gt;<br/>int main()</p>
+<p style="position:absolute;top:673px;left:108px;white-space:nowrap" class="ft50">{</p>
+<p style="position:absolute;top:696px;left:118px;white-space:nowrap" class="ft50">int co1,co2;</p>
+<p style="position:absolute;top:742px;left:118px;white-space:nowrap" class="ft50">scanf(&#34;%d %d&#34;,&amp;co1,&amp;co2);</p>
+<p style="position:absolute;top:787px;left:118px;white-space:nowrap" class="ft54">if( co1 &gt; 0 &amp;&amp; co2 &gt; 0)<br/>&#160; printf(&#34;The coordinate point (%d,%d) lies in the First quandrant.\n&#34;,co1,co2);<br/>else if( co1 &lt; 0 &amp;&amp; co2 &gt; 0)<br/>&#160; printf(&#34;The coordinate point (%d,%d) lies in the Second quandrant.\n&#34;,co1,co2);<br/>else if( co1 &lt; 0 &amp;&amp; co2 &lt; 0)<br/>&#160; printf(&#34;The coordinate point (%d, %d) lies in the Third quandrant.\n&#34;,co1,co2);<br/>else if( co1 &gt; 0 &amp;&amp; co2 &lt; 0)<br/>&#160; printf(&#34;The coordinate point (%d,%d) lies in the Fourth quandrant.\n&#34;,co1,co2);<br/>else if( co1 == 0 &amp;&amp; co2 == 0)<br/>&#160; printf(&#34;The coordinate point (%d,%d) lies at the origin.\n&#34;,co1,co2);</p>
+<p style="position:absolute;top:1039px;left:108px;white-space:nowrap" class="ft50">}</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft60{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft61{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft62{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft63{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft64{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft65{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page6-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file006.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft60"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:108px;left:178px;white-space:nowrap" class="ft61">Correct</p>
+<p style="position:absolute;top:108px;left:691px;white-space:nowrap" class="ft60"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:177px;left:108px;white-space:nowrap" class="ft64">7. &#160;&#160;Write a program to check whether a triangle can be formed by the given&#160;<br/>values for the angles.</p>
+<p style="position:absolute;top:250px;left:108px;white-space:nowrap" class="ft60"><i>Answer</i></p>
+<p style="position:absolute;top:285px;left:108px;white-space:nowrap" class="ft65">// You are using GCC<br/>#include &lt;stdio.h&gt;<br/>int main() &#160;<br/>{ &#160;</p>
+<p style="position:absolute;top:376px;left:108px;white-space:nowrap" class="ft65">&#160; &#160; int anga, angb, angc, sum;&#160;<br/>&#160; &#160; scanf(&#34;%d %d %d&#34;, &amp;anga, &amp;angb, &amp;angc); &#160;<br/>&#160; &#160; sum = anga + angb + angc; &#160;&#160;<br/>&#160; &#160; if(sum == 180) &#160;&#160;<br/>&#160; &#160; { &#160;</p>
+<p style="position:absolute;top:490px;left:108px;white-space:nowrap" class="ft65">&#160; &#160; &#160; &#160; printf(&#34;The triangle is valid.&#34;); &#160;<br/>&#160; &#160; } &#160;<br/>&#160; &#160; else &#160;<br/>&#160; &#160; { &#160;<br/>&#160; &#160; &#160; &#160; printf(&#34;The triangle is not valid.&#34;); &#160;<br/>&#160; &#160; } &#160;<br/>&#160;}&#160;</p>
+<p style="position:absolute;top:673px;left:108px;white-space:nowrap" class="ft60"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:673px;left:178px;white-space:nowrap" class="ft61">Correct</p>
+<p style="position:absolute;top:673px;left:691px;white-space:nowrap" class="ft60"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:742px;left:108px;white-space:nowrap" class="ft62">8. &#160;&#160;Write a program to calculate the profit and loss of a transaction.</p>
+<p style="position:absolute;top:791px;left:108px;white-space:nowrap" class="ft60"><i>Answer</i></p>
+<p style="position:absolute;top:825px;left:108px;white-space:nowrap" class="ft63">// You are using GCC</p>
+<p style="position:absolute;top:848px;left:108px;white-space:nowrap" class="ft65">#include &lt;stdio.h&gt;<br/>int main() &#160;</p>
+<p style="position:absolute;top:894px;left:108px;white-space:nowrap" class="ft65">{ &#160;<br/>&#160; &#160; int cprice,sprice, plamt;&#160;<br/>&#160; &#160; scanf(&#34;%d&#34;, &amp;cprice); &#160;</p>
+<p style="position:absolute;top:962px;left:108px;white-space:nowrap" class="ft65">&#160; &#160; scanf(&#34;%d&#34;, &amp;sprice); &#160;<br/>&#160; &#160; &#160;&#160;<br/>&#160; &#160; if(sprice&gt;cprice)&#160;<br/>&#160; &#160; { &#160;<br/>&#160; &#160; &#160; &#160; plamt = sprice-cprice; &#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft70{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft71{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft72{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft73{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft74{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page7-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file007.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft70">&#160; &#160; &#160; &#160; printf(&#34;profit amount: %d&#34;, plamt); &#160;</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft74">&#160; &#160; } &#160;<br/>&#160; &#160; else if(cprice&gt;sprice)&#160;<br/>&#160; &#160; { &#160;<br/>&#160; &#160; &#160; &#160; plamt = cprice-sprice; &#160;<br/>&#160; &#160; &#160; &#160; printf(&#34;loss amount : %d&#34;, plamt); &#160;<br/>&#160; &#160; } &#160;</p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft74">&#160; &#160; else&#160;<br/>&#160; &#160; { &#160;<br/>&#160; &#160; &#160; &#160; printf(&#34;You are running in no profit no loss condition&#34;); &#160;</p>
+<p style="position:absolute;top:337px;left:108px;white-space:nowrap" class="ft74">&#160; &#160; } &#160;<br/>} &#160;</p>
+<p style="position:absolute;top:405px;left:108px;white-space:nowrap" class="ft71"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:405px;left:178px;white-space:nowrap" class="ft72">Correct</p>
+<p style="position:absolute;top:405px;left:691px;white-space:nowrap" class="ft71"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:474px;left:108px;white-space:nowrap" class="ft73">9. &#160;&#160;Write a program to find the eligibility of admission for a professional&#160;</p>
+<p style="position:absolute;top:498px;left:108px;white-space:nowrap" class="ft73">course based on the following criteria:</p>
+<p style="position:absolute;top:535px;left:108px;white-space:nowrap" class="ft73">Marks in Maths &gt;=65</p>
+<p style="position:absolute;top:572px;left:108px;white-space:nowrap" class="ft73">Marks in Phy &gt;=55</p>
+<p style="position:absolute;top:609px;left:108px;white-space:nowrap" class="ft73">Marks in Chem&gt;=50</p>
+<p style="position:absolute;top:646px;left:108px;white-space:nowrap" class="ft73">Total in all three subjects &gt;=190</p>
+<p style="position:absolute;top:683px;left:108px;white-space:nowrap" class="ft73">or</p>
+<p style="position:absolute;top:720px;left:108px;white-space:nowrap" class="ft73">Total in Math and Physics &gt;=140</p>
+<p style="position:absolute;top:769px;left:108px;white-space:nowrap" class="ft71"><i>Answer</i></p>
+<p style="position:absolute;top:803px;left:108px;white-space:nowrap" class="ft74">#include &lt;stdio.h&gt;<br/>int main()<br/>{ &#160;<br/>&#160; &#160; int p,c,m,t,mp;<br/>&#160; &#160;scanf(&#34;%d&#34;,&amp;p);<br/>&#160; &#160;scanf(&#34;%d&#34;,&amp;c);<br/>&#160; &#160;scanf(&#34;%d&#34;,&amp;m);</p>
+<p style="position:absolute;top:975px;left:108px;white-space:nowrap" class="ft74">&#160; &#160; int pcm=p+c+m;<br/>&#160; &#160; int pm=p+m;<br/>&#160; &#160; bool eligible=0;<br/>&#160; &#160; if(p&gt;=55 &amp;&amp; c&gt;=50 &amp;&amp; m&gt;=65 &amp;&amp; pcm&gt;=190 || pm&gt;=140) eligible=1; &#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft80{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft81{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft82{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft83{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft84{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft85{font-size:20px;line-height:34px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft86{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page8-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file008.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft80">&#160; &#160; printf(&#34;Total marks of Maths, Physics, and Chemistry : %d\n&#34;,pcm);</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft85">&#160; &#160; printf(&#34;Total marks of Maths and Physics : %d\n&#34;,pm);<br/>&#160; &#160;&#160;<br/>&#160; &#160; if(eligible) &#160; &#160;printf(&#34;The candidate is eligible for admission.&#34;);<br/>&#160; &#160; else &#160; &#160; &#160; &#160; &#160; &#160;printf(&#34;The candidate is not eligible.&#34;);<br/>}</p>
+<p style="position:absolute;top:279px;left:108px;white-space:nowrap" class="ft81"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:279px;left:178px;white-space:nowrap" class="ft82">Correct</p>
+<p style="position:absolute;top:279px;left:691px;white-space:nowrap" class="ft81"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:348px;left:108px;white-space:nowrap" class="ft86">10. &#160;&#160;Write a program to read a month's number and print the number of&#160;<br/>days in that month.</p>
+<p style="position:absolute;top:422px;left:108px;white-space:nowrap" class="ft81"><i>Answer</i></p>
+<p style="position:absolute;top:456px;left:108px;white-space:nowrap" class="ft80">#include &lt;stdio.h&gt;</p>
+<p style="position:absolute;top:479px;left:108px;white-space:nowrap" class="ft84">int main()<br/>{<br/>&#160; &#160;int monno;<br/>&#160; &#160;char monnm[15];<br/>&#160; &#160;scanf(&#34;%d&#34;,&amp;monno);</p>
+<p style="position:absolute;top:593px;left:108px;white-space:nowrap" class="ft85">&#160; &#160;switch(monno)<br/>&#160; &#160;{<br/>&#160; &#160; case 1:</p>
+<p style="position:absolute;top:673px;left:108px;white-space:nowrap" class="ft84">&#160; &#160; case 3:<br/>&#160; &#160; case 5:<br/>&#160; &#160; case 7:<br/>&#160; &#160; case 8:</p>
+<p style="position:absolute;top:765px;left:108px;white-space:nowrap" class="ft84">&#160; &#160; case 10:<br/>&#160; &#160; case 12:<br/>&#160; &#160; &#160; &#160; printf(&#34;Month have 31 days.&#34;);<br/>&#160; &#160; &#160; &#160; break;<br/>&#160; &#160; case 4:<br/>&#160; &#160; case 6:<br/>&#160; &#160; case 9:<br/>&#160; &#160; case 11:<br/>&#160; &#160; &#160; &#160; printf(&#34;Month have 30 days.&#34;);<br/>&#160; &#160; &#160; &#160; break;<br/>&#160; &#160; default:<br/>&#160; &#160; &#160; &#160; printf(&#34;The 2nd month is a February and have 28 days.\n&#34;);<br/>&#160; &#160; &#160; &#160; printf(&#34;In leap year The February month Have 29 days.&#34;);</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft90{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft91{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft92{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page9-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file009.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft90">&#160; &#160; }</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft90">}</p>
+<p style="position:absolute;top:177px;left:108px;white-space:nowrap" class="ft91"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:177px;left:178px;white-space:nowrap" class="ft92">Correct</p>
+<p style="position:absolute;top:177px;left:691px;white-space:nowrap" class="ft91"><i>Marks : 10/10</i></p>
+</div>
+</body>
+</html>
