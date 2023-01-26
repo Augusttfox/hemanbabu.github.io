@@ -8,7 +8,7 @@
 // @run-at       document-start
 // ==/UserScript==
 
-var newJSFile = "file:///home/heman/js.js"; //The JS file to load in replacment od old JS file
+var newJSFile = "https://github.com/HemanBabu/hemanbabu.github.io/blob/main/js.js"; //The JS file to load in replacment od old JS file
 
 var oldJSFile = "https://cmrec487.examly.io/main.279722b1d632a569c949.js"; //The old JS file as it is named in inspect element (make sure its spelled EXACTLY the same)
 
