@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft10{font-size:30px;font-family:BZZZZZ+Roboto-Medium;color:#000000;}
+	.ft11{font-size:23px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft12{font-size:23px;font-family:BZZZZZ+Roboto-Medium;color:#000000;}
+	.ft13{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft14{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft15{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft16{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page1-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file001.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:289px;white-space:nowrap" class="ft10">CMR Engineering College</p>
+<link rel="stylesheet" href="style.css" />
+<p style="position:absolute;top:507px;left:336px;white-space:nowrap" class="ft12">Section 1 : Automata Fix</p>
+<p style="position:absolute;top:560px;left:108px;white-space:nowrap" class="ft14">1. &#160;&#160;Write a program to find the sum of the series [ 1-X^2/2!+X^4/4!- .........].</p>
+<p style="position:absolute;top:609px;left:108px;white-space:nowrap" class="ft15"><i>Answer</i></p>
+<p style="position:absolute;top:643px;left:108px;white-space:nowrap" class="ft16">// You are using GCC<br/>#include &lt;stdio.h&gt;<br/>#include &lt;math.h&gt;<br/>unsigned factorial(int);<br/>int main()<br/>{</p>
+<p style="position:absolute;top:780px;left:118px;white-space:nowrap" class="ft16">float x,sum,t,d;<br/>int i,n;</p>
+<p style="position:absolute;top:826px;left:108px;white-space:nowrap" class="ft13">&#160; &#160; scanf(&#34;%f&#34;,&amp;x);</p>
+<p style="position:absolute;top:849px;left:118px;white-space:nowrap" class="ft13">scanf(&#34;%d&#34;,&amp;n);</p>
+<p style="position:absolute;top:872px;left:108px;white-space:nowrap" class="ft13">&#160; &#160; //scanf(&#34;%f&#34;,&amp;x);</p>
+<p style="position:absolute;top:895px;left:118px;white-space:nowrap" class="ft16">sum =0; t = 0;<br/>for (i=0;i&lt;n;i++)<br/>{</p>
+<p style="position:absolute;top:963px;left:118px;white-space:nowrap" class="ft16">&#160; d = (2*i);<br/>&#160; t = pow(-1,i)*pow(x,d)/factorial(d);<br/>&#160; sum =sum+t;<br/>}<br/>printf(&#34;%.2f&#34;,sum);</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft20{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft21{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft22{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft23{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft24{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft25{font-size:20px;line-height:34px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page2-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file002.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft20">}&#160;</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft24">unsigned factorial(int x){<br/>&#160; &#160; return x==0||x==1 ? 1 : x*factorial(x-1);<br/>}</p>
+<p style="position:absolute;top:222px;left:108px;white-space:nowrap" class="ft21"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:222px;left:178px;white-space:nowrap" class="ft22">Correct</p>
+<p style="position:absolute;top:222px;left:691px;white-space:nowrap" class="ft21"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:291px;left:108px;white-space:nowrap" class="ft23">2. &#160;&#160;Write a program to print the pyramid pattern given below.</p>
+<p style="position:absolute;top:365px;left:108px;white-space:nowrap" class="ft21"><i>Answer</i></p>
+<p style="position:absolute;top:399px;left:108px;white-space:nowrap" class="ft24">#include &lt;stdio.h&gt;<br/>int main()<br/>{<br/>&#160; &#160;int i,j,spc,rows,k;</p>
+<p style="position:absolute;top:490px;left:108px;white-space:nowrap" class="ft20">&#160; &#160;scanf(&#34;%d&#34;,&amp;rows);</p>
+<p style="position:absolute;top:525px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; for(i=1;i&lt;=rows;i++){<br/>&#160; &#160; &#160; &#160; printf(&#34; &#160; &#160;&#34;);<br/>&#160; &#160; &#160; &#160; for(j=0;j&lt;rows-i;j++) &#160; printf(&#34; &#34;);</p>
+<p style="position:absolute;top:593px;left:108px;white-space:nowrap" class="ft25">&#160; &#160; &#160; &#160; for(j=0;j&lt;i;j++) &#160; &#160; &#160; &#160;printf(&#34;* &#34;);<br/>&#160; &#160; &#160; &#160; printf(&#34;\n&#34;);<br/>&#160; &#160; }<br/>}</p>
+<p style="position:absolute;top:719px;left:108px;white-space:nowrap" class="ft21"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:719px;left:178px;white-space:nowrap" class="ft22">Correct</p>
+<p style="position:absolute;top:719px;left:691px;white-space:nowrap" class="ft21"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:787px;left:108px;white-space:nowrap" class="ft23">3. &#160;&#160;Write a program to print the multiplication table of a given number.</p>
+<p style="position:absolute;top:837px;left:108px;white-space:nowrap" class="ft21"><i>Answer</i></p>
+<p style="position:absolute;top:871px;left:108px;white-space:nowrap" class="ft20">#include &lt;stdio.h&gt;</p>
+<p style="position:absolute;top:894px;left:108px;white-space:nowrap" class="ft24">int main()<br/>{<br/>&#160; &#160; int i, num;</p>
+<p style="position:absolute;top:962px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; scanf(&#34;%d&#34;, &amp;num);<br/>&#160; &#160; for(int i=1; i&lt;=10; i++){<br/>&#160; &#160; &#160; &#160; printf(&#34;%d * %d = %d\n&#34;, num , i, num*i);<br/>&#160; &#160; }</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft30{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft31{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft32{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft33{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft34{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft35{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page3-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file003.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft30">&#160; &#160; return 0;</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft30">}</p>
+<p style="position:absolute;top:177px;left:108px;white-space:nowrap" class="ft31"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:177px;left:178px;white-space:nowrap" class="ft32">Correct</p>
+<p style="position:absolute;top:177px;left:691px;white-space:nowrap" class="ft31"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:245px;left:108px;white-space:nowrap" class="ft34">4. &#160;&#160;Write a program to display the sum of the series [ 9 + 99 + 999 +&#160;<br/>9999 ...].</p>
+<p style="position:absolute;top:319px;left:108px;white-space:nowrap" class="ft31"><i>Answer</i></p>
+<p style="position:absolute;top:353px;left:108px;white-space:nowrap" class="ft30">// You are using GCC</p>
+<p style="position:absolute;top:376px;left:108px;white-space:nowrap" class="ft35">#include &lt;stdio.h&gt;<br/>#include &lt;math.h&gt;<br/>int main()<br/>{ &#160; long int n;</p>
+<p style="position:absolute;top:467px;left:118px;white-space:nowrap" class="ft30">float sum =0;</p>
+<p style="position:absolute;top:490px;left:118px;white-space:nowrap" class="ft35">scanf(&#34;%ld&#34;,&amp;n);<br/>for(int i=0;i&lt;n;i++){<br/>&#160; &#160; printf(&#34;%.0f &#34;,pow(10,i+1)-1);<br/>&#160; &#160; sum+=9*(i+1)*pow(10,n-i-1);<br/>}<br/>printf(&#34;\n%.0f&#34;,sum);</p>
+<p style="position:absolute;top:627px;left:108px;white-space:nowrap" class="ft30">}&#160;</p>
+<p style="position:absolute;top:673px;left:108px;white-space:nowrap" class="ft31"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:673px;left:178px;white-space:nowrap" class="ft32">Correct</p>
+<p style="position:absolute;top:673px;left:691px;white-space:nowrap" class="ft31"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:742px;left:108px;white-space:nowrap" class="ft33">5. &#160;&#160;Write a program to find out the sum of an AP series.</p>
+<p style="position:absolute;top:791px;left:108px;white-space:nowrap" class="ft31"><i>Answer</i></p>
+<p style="position:absolute;top:825px;left:108px;white-space:nowrap" class="ft30">#include &lt;stdio.h&gt;</p>
+<p style="position:absolute;top:848px;left:108px;white-space:nowrap" class="ft35">#include &lt;math.h&gt;<br/></p>
+<p style="position:absolute;top:894px;left:108px;white-space:nowrap" class="ft35">int main(){<br/><br/>&#160; &#160; int n1,df,n2,i,ln;</p>
+<p style="position:absolute;top:962px;left:108px;white-space:nowrap" class="ft35">&#160; &#160; int s1=0;<br/>&#160; &#160; scanf(&#34;%d&#34;,&amp;n1);<br/>&#160; &#160; scanf(&#34;%d&#34;,&amp;n2);<br/>&#160; &#160; scanf(&#34;%d&#34;,&amp;df);</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft40{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft41{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft42{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft43{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft44{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft45{font-size:20px;line-height:34px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft46{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page4-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file004.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft40">printf(&#34;%d&#34;,n1);</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft44">for(int i=1;i&lt;n2;i++) &#160; printf(&#34; + %d&#34;,n1+df*i);<br/>printf(&#34; = %d&#34;,n1*n2+(df*n2*(n2-1)/2));<br/>&#160; &#160; return 0;<br/>}&#160;</p>
+<p style="position:absolute;top:257px;left:108px;white-space:nowrap" class="ft41"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:257px;left:178px;white-space:nowrap" class="ft42">Correct</p>
+<p style="position:absolute;top:257px;left:691px;white-space:nowrap" class="ft41"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:325px;left:108px;white-space:nowrap" class="ft46">6. &#160;&#160;Write a program to find the numbers and the sum of all integers that&#160;<br/>are divisible by a certain number in a given range.</p>
+<p style="position:absolute;top:399px;left:108px;white-space:nowrap" class="ft41"><i>Answer</i></p>
+<p style="position:absolute;top:433px;left:108px;white-space:nowrap" class="ft44">// You are using GCC<br/>#include &lt;stdio.h&gt;</p>
+<p style="position:absolute;top:502px;left:108px;white-space:nowrap" class="ft44">int main()<br/>{<br/>&#160; &#160;int i, sum=0,start,end,k;<br/>&#160; &#160;scanf(&#34;%d%d%d&#34;,&amp;start,&amp;end,&amp;k);</p>
+<p style="position:absolute;top:593px;left:108px;white-space:nowrap" class="ft44">&#160; &#160;for(i=start;i&lt;=end;i++)<br/>&#160; &#160;{<br/>&#160; &#160; &#160;if(i%k==0)<br/>&#160; &#160; &#160;{</p>
+<p style="position:absolute;top:685px;left:108px;white-space:nowrap" class="ft44">&#160; &#160; &#160; &#160;printf(&#34;%d &#34;,i);<br/>&#160; &#160; &#160; &#160;sum+=i;<br/>&#160; &#160; &#160;}<br/>&#160; &#160;}<br/>&#160; &#160;printf(&#34;\nThe sum : %d&#34;,sum);</p>
+<p style="position:absolute;top:799px;left:108px;white-space:nowrap" class="ft44">&#160; &#160;return 0;<br/>}</p>
+<p style="position:absolute;top:867px;left:108px;white-space:nowrap" class="ft41"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:867px;left:178px;white-space:nowrap" class="ft42">Correct</p>
+<p style="position:absolute;top:867px;left:691px;white-space:nowrap" class="ft41"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:936px;left:108px;white-space:nowrap" class="ft46">7. &#160;&#160;Write a program to display the n terms of odd natural numbers and&#160;<br/>their sum.</p>
+<p style="position:absolute;top:1010px;left:108px;white-space:nowrap" class="ft41"><i>Answer</i></p>
+<p style="position:absolute;top:1044px;left:108px;white-space:nowrap" class="ft40">#include &lt;stdio.h&gt;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft50{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft51{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft52{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft53{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft54{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft55{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page5-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file005.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft50">int main()</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft54">{<br/>&#160; &#160;int i,n,sum=0;<br/>&#160; &#160;scanf(&#34;%d&#34;,&amp;n);</p>
+<p style="position:absolute;top:234px;left:108px;white-space:nowrap" class="ft54">&#160; &#160;for(i=0;i&lt;n;i++)<br/>&#160; &#160;{</p>
+<p style="position:absolute;top:279px;left:108px;white-space:nowrap" class="ft54">&#160; &#160; &#160;printf(&#34;%d &#34;,2*i+1);<br/>&#160; &#160; &#160;sum+=2*i+1;</p>
+<p style="position:absolute;top:325px;left:108px;white-space:nowrap" class="ft50">&#160; &#160;}</p>
+<p style="position:absolute;top:359px;left:108px;white-space:nowrap" class="ft50">&#160;printf(&#34;\n%d&#34;,sum);</p>
+<p style="position:absolute;top:382px;left:108px;white-space:nowrap" class="ft50">}</p>
+<p style="position:absolute;top:428px;left:108px;white-space:nowrap" class="ft51"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:428px;left:178px;white-space:nowrap" class="ft52">Correct</p>
+<p style="position:absolute;top:428px;left:691px;white-space:nowrap" class="ft51"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:496px;left:108px;white-space:nowrap" class="ft53">8. &#160;&#160;Write a program to print the strong numbers within a given range.</p>
+<p style="position:absolute;top:533px;left:108px;white-space:nowrap" class="ft55">Hint: A strong number is a special number whose sum of the factorial of&#160;<br/>digits is equal to the original number.</p>
+<p style="position:absolute;top:607px;left:108px;white-space:nowrap" class="ft51"><i>Answer</i></p>
+<p style="position:absolute;top:641px;left:108px;white-space:nowrap" class="ft54">// You are using GCC<br/>#include &lt;stdio.h&gt;<br/>int main() &#160;<br/>{ &#160;<br/>&#160; &#160; int i, n, n1, s1=0,j,k,en,sn; &#160;<br/>&#160; &#160; long fact;&#160;<br/>&#160; &#160; scanf(&#34;%d&#34;, &amp;sn);<br/>&#160; &#160; scanf(&#34;%d&#34;, &amp;en);&#160;</p>
+<p style="position:absolute;top:847px;left:108px;white-space:nowrap" class="ft54">&#160;for(k=sn;k&lt;=en;k++)<br/>&#160; &#160;{<br/>&#160; &#160; &#160;n1=k;<br/>&#160; &#160; &#160;s1=0; &#160;<br/>&#160;<br/>&#160; &#160; for(j=n1;j!=0;j=j/10)&#160;<br/>&#160; &#160; { &#160;<br/>&#160;&#160;<br/>&#160; &#160; &#160; &#160; fact = 1; &#160;<br/>&#160; &#160; &#160; &#160; &#160; for(i=2; i&lt;=j%10; i++) &#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft60{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft61{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft62{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft63{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft64{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft65{font-size:20px;line-height:34px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page6-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file006.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft60">&#160; &#160; &#160; &#160; &#160; &#160;{ &#160;</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft64">&#160; &#160; &#160; &#160; &#160; &#160; fact = fact*i; &#160;<br/>&#160; &#160; &#160; &#160; &#160; &#160;} &#160;<br/>&#160; &#160; &#160; &#160; &#160; &#160; s1 += fact; &#160;<br/>&#160; &#160; } &#160;<br/>&#160;&#160;<br/>&#160; &#160; if(s1==n1) &#160;</p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft64">&#160; &#160; &#160; &#160;<br/>&#160; &#160; &#160; &#160; printf(&#34;%d &#34;, n1);&#160;<br/>&#160; } &#160;</p>
+<p style="position:absolute;top:337px;left:108px;white-space:nowrap" class="ft64">&#160; return 0;<br/>}</p>
+<p style="position:absolute;top:405px;left:108px;white-space:nowrap" class="ft61"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:405px;left:178px;white-space:nowrap" class="ft62">Correct</p>
+<p style="position:absolute;top:405px;left:691px;white-space:nowrap" class="ft61"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:474px;left:108px;white-space:nowrap" class="ft63">9. &#160;&#160;Write a program to find the sum of the GP series.</p>
+<p style="position:absolute;top:523px;left:108px;white-space:nowrap" class="ft61"><i>Answer</i></p>
+<p style="position:absolute;top:557px;left:108px;white-space:nowrap" class="ft64">#include &lt;stdio.h&gt;<br/>#include &lt;math.h&gt;</p>
+<p style="position:absolute;top:603px;left:108px;white-space:nowrap" class="ft64"><br/>int main()<br/>{<br/><br/>&#160; &#160; float g1,cr,i,n,j;<br/>&#160; &#160; float ntrm,gpn;<br/>&#160; &#160; float sum=0;<br/>&#160; &#160; scanf(&#34;%f&#34;,&amp;g1);</p>
+<p style="position:absolute;top:786px;left:108px;white-space:nowrap" class="ft64">&#160; &#160; scanf(&#34;%f&#34;,&amp;ntrm);<br/>&#160; &#160; scanf(&#34;%f&#34;,&amp;cr);</p>
+<p style="position:absolute;top:831px;left:118px;white-space:nowrap" class="ft60">&#160;printf(&#34;%.2f &#34;,g1);</p>
+<p style="position:absolute;top:866px;left:108px;white-space:nowrap" class="ft64">sum=g1;<br/>for(int i=1; i&lt;ntrm; i++){</p>
+<p style="position:absolute;top:911px;left:108px;white-space:nowrap" class="ft64">&#160; &#160; gpn=g1*pow(cr,i);<br/>&#160; &#160; sum+=gpn;<br/>&#160; &#160; printf(&#34;%.2f &#34;,g1*pow(cr,i));<br/>}<br/>&#160; &#160; printf(&#34;\n%.2f&#34;,sum);<br/>&#160; &#160; return 0;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft70{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft71{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft72{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft73{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft74{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft75{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page7-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file007.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft70">}</p>
+<p style="position:absolute;top:154px;left:108px;white-space:nowrap" class="ft71"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:154px;left:178px;white-space:nowrap" class="ft72">Correct</p>
+<p style="position:absolute;top:154px;left:691px;white-space:nowrap" class="ft71"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:222px;left:108px;white-space:nowrap" class="ft74">10. &#160;&#160;Write a program to obtain a number and print it as a sum of two prime&#160;<br/>numbers.</p>
+<p style="position:absolute;top:296px;left:108px;white-space:nowrap" class="ft71"><i>Answer</i></p>
+<p style="position:absolute;top:330px;left:108px;white-space:nowrap" class="ft75">// You are using GCC<br/>#include &lt;stdio.h&gt;</p>
+<p style="position:absolute;top:376px;left:108px;white-space:nowrap" class="ft75">#include &lt;stdlib.h&gt;<br/>#include &lt;math.h&gt;<br/>int main()<br/>{<br/>&#160; &#160; long int num,i,j,temp1,temp2,ctr=0;</p>
+<p style="position:absolute;top:490px;left:108px;white-space:nowrap" class="ft75">&#160; &#160; scanf(&#34;%ld&#34;,&amp;num);<br/>&#160; &#160; for(i=2;i&lt;=num/2;i++){<br/>&#160; &#160; &#160; &#160; for(j=2;j&lt;=i/2;j++){<br/>&#160; &#160; &#160; &#160; &#160; &#160; if(i%j==0){ctr++;break;}<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; &#160; &#160; if(ctr==0){<br/>&#160; &#160; &#160; &#160; &#160; &#160; for(j=2;j&lt;=(num-i)/2;j++){<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; if((num-i)%j==0){ctr++;break;}</p>
+<p style="position:absolute;top:673px;left:108px;white-space:nowrap" class="ft75">&#160; &#160; &#160; &#160; &#160; &#160; }<br/>&#160; &#160; &#160; &#160; &#160; &#160; if(ctr==0) printf(&#34;%ld + %ld\n&#34;,i,num-i);<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; &#160; &#160; ctr=0;</p>
+<p style="position:absolute;top:765px;left:108px;white-space:nowrap" class="ft75">&#160; &#160; }<br/>&#160; &#160; return 0;<br/>}</p>
+<p style="position:absolute;top:856px;left:108px;white-space:nowrap" class="ft71"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:856px;left:178px;white-space:nowrap" class="ft72">Correct</p>
+<p style="position:absolute;top:856px;left:691px;white-space:nowrap" class="ft71"><i>Marks : 10/10</i></p>
+</div>
+</body>
+</html>
