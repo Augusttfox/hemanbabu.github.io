@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft10{font-size:30px;font-family:BZZZZZ+Roboto-Medium;color:#000000;}
+	.ft11{font-size:23px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft12{font-size:23px;font-family:BZZZZZ+Roboto-Medium;color:#000000;}
+	.ft13{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft14{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft15{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft16{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft17{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft18{font-size:20px;line-height:34px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page1-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file001.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:289px;white-space:nowrap" class="ft10">CMR Engineering College</p>
+<link rel="stylesheet" href="style.css" />
+<p style="position:absolute;top:310px;left:272px;white-space:nowrap" class="ft12">2022-26_I_CS_B_C Programming Lab</p>
+<p style="position:absolute;top:363px;left:145px;white-space:nowrap" class="ft12">C PROGRAMMING_AUTOMATA FIX_Single Dimensional Arrays</p>
+<p style="position:absolute;top:416px;left:108px;white-space:nowrap" class="ft16">Attempt : 1<br/>Total Mark : 100<br/>Marks Obtained : 98</p>
+<p style="position:absolute;top:507px;left:336px;white-space:nowrap" class="ft12">Section 1 : Automata Fix</p>
+<p style="position:absolute;top:560px;left:108px;white-space:nowrap" class="ft17">1. &#160;&#160;Write a program to check if the given arrays have common elements or&#160;<br/>not.</p>
+<p style="position:absolute;top:634px;left:108px;white-space:nowrap" class="ft15"><i>Answer</i></p>
+<p style="position:absolute;top:668px;left:108px;white-space:nowrap" class="ft16">#include &lt;stdio.h&gt;<br/>#include &lt;stdlib.h&gt;<br/></p>
+<p style="position:absolute;top:736px;left:108px;white-space:nowrap" class="ft16">int disjoint_arrays(int arr1[], int arr2[], int n, int m)<br/>{</p>
+<p style="position:absolute;top:794px;left:108px;white-space:nowrap" class="ft16">&#160; &#160; for(int i=0; i&lt;n; i++)<br/>&#160; &#160; &#160; &#160; for(int j=0; j&lt;m; j++) &#160;if(arr1[i]==arr2[j]) &#160; &#160;return -1;<br/>&#160; &#160; return 0;<br/>}<br/><br/>int main()<br/>{<br/>&#160; &#160; int m,n;<br/>&#160; &#160; <br/>&#160; &#160; scanf(&#34;%d&#34;,&amp;n);<br/>&#160; &#160; <br/>&#160; &#160; scanf(&#34;%d&#34;,&amp;m);</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft20{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft21{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft22{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft23{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft24{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft25{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page2-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file002.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft20">&#160; &#160; int arr1[n];</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; int arr2[m];<br/>&#160; &#160; int i;<br/>&#160; &#160; <br/>&#160; &#160; for(i=0;i&lt;n;i++)<br/>&#160; &#160; {<br/>&#160; &#160; &#160; &#160; scanf(&#34;%d&#34;,&amp;arr1[i]);</p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; }<br/>&#160; &#160; <br/>&#160; &#160; for(i=0;i&lt;m;i++)</p>
+<p style="position:absolute;top:337px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; {<br/>&#160; &#160; &#160; &#160; scanf(&#34;%d&#34;,&amp;arr2[i]);</p>
+<p style="position:absolute;top:382px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; }<br/>&#160; &#160; int res = disjoint_arrays(arr1,arr2,n,m);</p>
+<p style="position:absolute;top:428px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; if(res == -1)<br/>&#160; &#160; &#160; &#160; printf(&#34;There is common elements&#34;);</p>
+<p style="position:absolute;top:474px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; else<br/>&#160; &#160; &#160; &#160; printf(&#34;There is no common elements&#34;);<br/>&#160; &#160; return 0;<br/>}</p>
+<p style="position:absolute;top:588px;left:108px;white-space:nowrap" class="ft21"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:588px;left:178px;white-space:nowrap" class="ft22">Correct</p>
+<p style="position:absolute;top:588px;left:691px;white-space:nowrap" class="ft21"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:656px;left:108px;white-space:nowrap" class="ft25">2. &#160;&#160;Write a program to find the Sum of absolute differences of the given&#160;<br/>Array.</p>
+<p style="position:absolute;top:730px;left:108px;white-space:nowrap" class="ft23">For example, consider the following array given as input : arr = {1, 3, 9, 6, 3}&#160;</p>
+<p style="position:absolute;top:767px;left:108px;white-space:nowrap" class="ft23">|1-3| + |3-9| + |9-6| + |6-3| = 2 + 6 + 3 + 3 = 14</p>
+<p style="position:absolute;top:816px;left:108px;white-space:nowrap" class="ft21"><i>Answer</i></p>
+<p style="position:absolute;top:851px;left:108px;white-space:nowrap" class="ft24">// You are using GCC<br/>#include&lt;stdio.h&gt;<br/>#include&lt;stdlib.h&gt;<br/>int abs_sum(int a[],int n){<br/>&#160; &#160; int i,sum=0,diff;<br/>&#160; &#160; for(i=0;i&lt;(n-1);i++){<br/>&#160; &#160; &#160; &#160; diff=a[i]-a[i+1];<br/>&#160; &#160; &#160; &#160; sum=sum+(diff&gt;0?diff:-diff);<br/>&#160; &#160; }<br/>&#160; &#160; return sum;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft30{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft31{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft32{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft33{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft34{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft35{font-size:21px;line-height:36px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page3-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file003.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft30">}</p>
+<p style="position:absolute;top:154px;left:108px;white-space:nowrap" class="ft34">int main()<br/>{<br/>&#160; &#160; int n, i;<br/>&#160; &#160; scanf(&#34;%d&#34;, &amp;n);<br/>&#160; &#160; int a[n];</p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; for(i=0; i&lt;=n; i++)<br/>&#160; &#160; {<br/>&#160; &#160; &#160; &#160; scanf(&#34;%d&#34;, &amp;a[i]);</p>
+<p style="position:absolute;top:337px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; }<br/>&#160; &#160;&#160;</p>
+<p style="position:absolute;top:382px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; printf(&#34;%d&#34;,abs_sum(a, n));<br/>&#160; &#160; return 0;</p>
+<p style="position:absolute;top:428px;left:108px;white-space:nowrap" class="ft30">}</p>
+<p style="position:absolute;top:474px;left:108px;white-space:nowrap" class="ft31"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:474px;left:178px;white-space:nowrap" class="ft32">Correct</p>
+<p style="position:absolute;top:474px;left:691px;white-space:nowrap" class="ft31"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:542px;left:108px;white-space:nowrap" class="ft33">3. &#160;&#160;Write a Program to check if all the numbers of an array can be made&#160;</p>
+<p style="position:absolute;top:567px;left:108px;white-space:nowrap" class="ft33">equal.</p>
+<p style="position:absolute;top:616px;left:108px;white-space:nowrap" class="ft33">Example:</p>
+<p style="position:absolute;top:653px;left:108px;white-space:nowrap" class="ft33">Input:</p>
+<p style="position:absolute;top:690px;left:108px;white-space:nowrap" class="ft33">3</p>
+<p style="position:absolute;top:727px;left:108px;white-space:nowrap" class="ft33">50 75 100</p>
+<p style="position:absolute;top:764px;left:108px;white-space:nowrap" class="ft35">Output:<br/>Yes -&gt;{50 * 2 * 3, 75 * 2 * 2, 100 * 3} = {300, 300, 300}</p>
+<p style="position:absolute;top:862px;left:108px;white-space:nowrap" class="ft31"><i>Answer</i></p>
+<p style="position:absolute;top:896px;left:108px;white-space:nowrap" class="ft34">#include &lt;stdio.h&gt;<br/><br/>int make_equal(int a[], int n)<br/>{</p>
+<p style="position:absolute;top:999px;left:108px;white-space:nowrap" class="ft34">&#160; &#160; for(int i=0; i&lt;n; i++){<br/>&#160; &#160; &#160; &#160; int factors[]={2,3,5,7};<br/>&#160; &#160; &#160; &#160; for(int j=0;j&lt;4;j++){</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft40{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft41{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft42{font-size:20px;font-family:CZZZZZ+Roboto;color:#ffa500;}
+	.ft43{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft44{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft45{font-size:20px;line-height:34px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page4-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file004.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft40">&#160; &#160; &#160; &#160; &#160; &#160; while(a[i]%factors[j]==0) a[i]/=factors[j];</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft44">&#160; &#160; &#160; &#160; }<br/>&#160; &#160; &#160; &#160; if(i!=0&amp;&amp;a[i]!=a[0]) &#160; &#160;return 0;<br/>&#160; &#160; }<br/>&#160; &#160; return 1;<br/>}<br/></p>
+<p style="position:absolute;top:279px;left:108px;white-space:nowrap" class="ft44">int main()<br/>{</p>
+<p style="position:absolute;top:325px;left:108px;white-space:nowrap" class="ft44">&#160; &#160; int n, i;<br/>&#160; &#160; scanf(&#34;%d&#34;, &amp;n);<br/>&#160; &#160; int a[n];<br/>&#160; &#160; for(i=0; i&lt;n; i++)<br/>&#160; &#160; scanf(&#34;%d&#34;, &amp;a[i]);<br/>&#160; &#160; if (make_equal(a, n) == 1)<br/>&#160; &#160; &#160; &#160; printf(&#34;Yes&#34;);<br/>&#160; &#160; else<br/>&#160; &#160; &#160; &#160; printf(&#34;No&#34;);<br/>&#160; &#160; return 0;<br/>}</p>
+<p style="position:absolute;top:599px;left:108px;white-space:nowrap" class="ft41"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:599px;left:178px;white-space:nowrap" class="ft42">Partially correct</p>
+<p style="position:absolute;top:599px;left:702px;white-space:nowrap" class="ft41"><i>Marks : 8/10</i></p>
+<p style="position:absolute;top:668px;left:108px;white-space:nowrap" class="ft43">4. &#160;&#160;Write a program to find repeating element in an array.</p>
+<p style="position:absolute;top:717px;left:108px;white-space:nowrap" class="ft41"><i>Answer</i></p>
+<p style="position:absolute;top:751px;left:108px;white-space:nowrap" class="ft44">// You are using GCC<br/>#include&lt;stdio.h&gt;<br/>void repeating_element(int arr[], int n)</p>
+<p style="position:absolute;top:820px;left:108px;white-space:nowrap" class="ft44">{<br/>&#160; &#160; int i, j;</p>
+<p style="position:absolute;top:866px;left:108px;white-space:nowrap" class="ft44">&#160; &#160;&#160;<br/>&#160; &#160; for(i = 0;i &lt; n;i++)</p>
+<p style="position:absolute;top:911px;left:108px;white-space:nowrap" class="ft44">&#160; &#160; {<br/>&#160; &#160; &#160; &#160; for(j = i+1;j &lt; n;j++)<br/>&#160; &#160; &#160; &#160; {<br/>&#160; &#160; &#160; &#160; &#160; &#160; if(arr[i] == arr[j])<br/>&#160; &#160; &#160; &#160; &#160; &#160; {<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; printf(&#34;%d &#34;, arr[j]);<br/>&#160; &#160; &#160; &#160; &#160; &#160; }</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft50{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft51{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft52{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft53{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft54{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page5-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file005.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft50">&#160; &#160; &#160; &#160; }</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft54">&#160; &#160; }<br/>}<br/>int main()<br/>{<br/>&#160; &#160; int n;<br/>&#160; &#160; scanf(&#34;%d&#34;,&amp;n);</p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft54">&#160; &#160; int arr[n];<br/>&#160; &#160; int i;<br/>&#160; &#160; for(i = 0; i &lt; n; i++)</p>
+<p style="position:absolute;top:337px;left:108px;white-space:nowrap" class="ft54">&#160; &#160; {<br/>&#160; &#160; &#160; &#160; scanf(&#34;%d&#34;,&amp;arr[i]);</p>
+<p style="position:absolute;top:382px;left:108px;white-space:nowrap" class="ft54">&#160; &#160; }<br/>&#160; &#160; repeating_element(arr,n);</p>
+<p style="position:absolute;top:428px;left:108px;white-space:nowrap" class="ft54">&#160; &#160; return 0;<br/>}</p>
+<p style="position:absolute;top:496px;left:108px;white-space:nowrap" class="ft51"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:496px;left:178px;white-space:nowrap" class="ft52">Correct</p>
+<p style="position:absolute;top:496px;left:691px;white-space:nowrap" class="ft51"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:565px;left:108px;white-space:nowrap" class="ft53">5. &#160;&#160;Write a program to Find all Triplets with the given sum in the given array.</p>
+<p style="position:absolute;top:614px;left:108px;white-space:nowrap" class="ft51"><i>Answer</i></p>
+<p style="position:absolute;top:649px;left:108px;white-space:nowrap" class="ft54">// You are using GCC<br/>#include&lt;stdio.h&gt;</p>
+<p style="position:absolute;top:717px;left:108px;white-space:nowrap" class="ft54">void find_all_triplets(int arr[], int n, int sum)<br/>{<br/>&#160; &#160; for (int i = 0; i &lt; n; i++)</p>
+<p style="position:absolute;top:786px;left:108px;white-space:nowrap" class="ft54">&#160; &#160; {<br/>&#160; &#160; &#160; &#160; for (int j = i + 1; j &lt; n; j++)<br/>&#160; &#160; &#160; &#160; {<br/>&#160; &#160; &#160; &#160; &#160; &#160; for (int k = j + 1; k &lt; n; k++)<br/>&#160; &#160; &#160; &#160; &#160; &#160; {<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; if (arr[i] + arr[j] + arr[k] == sum)<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; {<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; printf(&#34;%d,%d,%d\n&#34;,arr[i],arr[j],arr[k]);<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; }<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;&#160;<br/>&#160; &#160; &#160; &#160; &#160; &#160; }<br/>&#160; &#160; &#160; &#160; &#160; &#160;&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft60{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft61{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft62{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft63{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft64{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft65{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft66{font-size:21px;line-height:36px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page6-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file006.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft60">&#160; &#160; &#160; &#160; }</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft64">&#160; &#160; &#160; &#160;&#160;<br/>&#160; &#160; }<br/>&#160; &#160;&#160;<br/>}</p>
+<p style="position:absolute;top:245px;left:108px;white-space:nowrap" class="ft60">int main()</p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft64">{<br/>&#160; &#160; int n;<br/>&#160; &#160;&#160;</p>
+<p style="position:absolute;top:337px;left:108px;white-space:nowrap" class="ft64">&#160; &#160; scanf(&#34;%d&#34;,&amp;n);<br/>&#160; &#160; int arr[n];</p>
+<p style="position:absolute;top:382px;left:108px;white-space:nowrap" class="ft64">&#160; &#160; for(int i = 0; i &lt; n; i++)<br/>&#160; &#160; {</p>
+<p style="position:absolute;top:428px;left:108px;white-space:nowrap" class="ft64">&#160; &#160; &#160; &#160; scanf(&#34;%d&#34;,&amp;arr[i]);<br/>&#160; &#160; }</p>
+<p style="position:absolute;top:474px;left:108px;white-space:nowrap" class="ft64">&#160; &#160; int sum;<br/>&#160; &#160; scanf(&#34;%d&#34;,&amp;sum);<br/>&#160; &#160;&#160;<br/>&#160; &#160; find_all_triplets(arr, n, sum);</p>
+<p style="position:absolute;top:565px;left:108px;white-space:nowrap" class="ft64">&#160; &#160; return 0;<br/>}</p>
+<p style="position:absolute;top:634px;left:108px;white-space:nowrap" class="ft61"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:634px;left:178px;white-space:nowrap" class="ft62">Correct</p>
+<p style="position:absolute;top:634px;left:691px;white-space:nowrap" class="ft61"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:702px;left:108px;white-space:nowrap" class="ft65">6. &#160;&#160;Write a program to Rearrange positive and negative numbers in an&#160;<br/>array.</p>
+<p style="position:absolute;top:764px;left:108px;white-space:nowrap" class="ft66">Example:<br/>Input: -1 1 -2 2 -3 3</p>
+<p style="position:absolute;top:837px;left:108px;white-space:nowrap" class="ft63">Output: -1 -2 -3 1 2 3</p>
+<p style="position:absolute;top:899px;left:108px;white-space:nowrap" class="ft61"><i>Answer</i></p>
+<p style="position:absolute;top:933px;left:108px;white-space:nowrap" class="ft64">#include &lt;stdio.h&gt;<br/>#include &lt;stdlib.h&gt;<br/>void rearrange_alternate_positions(int arr[], int n)<br/>{</p>
+<p style="position:absolute;top:1036px;left:108px;white-space:nowrap" class="ft60">&#160; &#160; int temp[n];</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft70{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft71{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft72{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft73{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft74{font-size:20px;line-height:34px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page7-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file007.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft70">&#160; &#160; int index=0;</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft73">&#160; &#160; for(int j=0; j&lt;n; j++){<br/>&#160; &#160; &#160; &#160; if(arr[j]&lt;1){<br/>&#160; &#160; &#160; &#160; &#160; &#160; temp[index]=arr[j];<br/>&#160; &#160; &#160; &#160; &#160; &#160; index++;<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }</p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft73">&#160; &#160; for(int j=0; j&lt;n; j++){<br/>&#160; &#160; &#160; &#160; if(arr[j]&gt;0){<br/>&#160; &#160; &#160; &#160; &#160; &#160; temp[index]=arr[j];</p>
+<p style="position:absolute;top:337px;left:108px;white-space:nowrap" class="ft73">&#160; &#160; &#160; &#160; &#160; &#160; index++;<br/>&#160; &#160; &#160; &#160; }</p>
+<p style="position:absolute;top:382px;left:108px;white-space:nowrap" class="ft73">&#160; &#160; }<br/>&#160; &#160; for(int j=0; j&lt;n; j++){</p>
+<p style="position:absolute;top:428px;left:108px;white-space:nowrap" class="ft73">&#160; &#160; &#160; &#160; arr[j]=temp[j];<br/>&#160; &#160; }<br/>}<br/>int main()<br/>{<br/>&#160; &#160; int n,i;<br/>&#160; &#160; <br/>&#160; &#160; scanf(&#34;%d&#34;,&amp;n);<br/>&#160; &#160; int arr[n];<br/>&#160; &#160; <br/>&#160; &#160; for(i = 0; i &lt; n; i++)<br/>&#160; &#160; {<br/>&#160; &#160; &#160; &#160; scanf(&#34;%d&#34;,&amp;arr[i]);</p>
+<p style="position:absolute;top:736px;left:108px;white-space:nowrap" class="ft73">&#160; &#160; }<br/>&#160; &#160; <br/>&#160; &#160; rearrange_alternate_positions(arr, n);<br/>&#160; &#160; <br/>&#160; &#160; for(i = 0; i &lt; n; i++)</p>
+<p style="position:absolute;top:851px;left:108px;white-space:nowrap" class="ft73">&#160; &#160; {<br/>&#160; &#160; &#160; &#160; printf(&#34;%d &#34;,arr[i]);<br/>&#160; &#160; }<br/>&#160; &#160; &#160; &#160; <br/>&#160; &#160; return 0;<br/>}</p>
+<p style="position:absolute;top:1011px;left:108px;white-space:nowrap" class="ft71"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:1011px;left:178px;white-space:nowrap" class="ft72">Correct</p>
+<p style="position:absolute;top:1011px;left:691px;white-space:nowrap" class="ft71"><i>Marks : 10/10</i></p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft80{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft81{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft82{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft83{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft84{font-size:20px;line-height:34px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page8-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file008.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft80">7. &#160;&#160;Write a program to check if two arrays are equal or not.</p>
+<p style="position:absolute;top:157px;left:108px;white-space:nowrap" class="ft81"><i>Answer</i></p>
+<p style="position:absolute;top:191px;left:108px;white-space:nowrap" class="ft83">#include&lt;stdio.h&gt;<br/><br/>int sort(int arr[], int n)<br/>{<br/>&#160; &#160; int i,j;</p>
+<p style="position:absolute;top:306px;left:108px;white-space:nowrap" class="ft83">&#160; &#160; for (i = 0; i &lt; n-1; i++)<br/>&#160; &#160; {</p>
+<p style="position:absolute;top:351px;left:108px;white-space:nowrap" class="ft83">&#160; &#160; &#160; &#160; for (j = 0; j &lt; n-i-1; j++)<br/>&#160; &#160; &#160; &#160; {<br/>&#160; &#160; &#160; &#160; &#160; &#160; if (arr[j] &gt; arr[j+1])</p>
+<p style="position:absolute;top:420px;left:108px;white-space:nowrap" class="ft83">&#160; &#160; &#160; &#160; &#160; &#160; {<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; int temp = arr[j];<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; arr[j] = arr[j+1];<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; arr[j+1] = temp;</p>
+<p style="position:absolute;top:511px;left:108px;white-space:nowrap" class="ft83">&#160; &#160; &#160; &#160; &#160; &#160; }<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>}</p>
+<p style="position:absolute;top:603px;left:108px;white-space:nowrap" class="ft83">int arrays_equal(int arr1[], int arr2[], int n, int m)<br/>{</p>
+<p style="position:absolute;top:660px;left:108px;white-space:nowrap" class="ft83">&#160; &#160; sort(arr1, n);<br/>&#160; &#160; sort(arr2, m);</p>
+<p style="position:absolute;top:706px;left:108px;white-space:nowrap" class="ft83">&#160; &#160; if(n!=m) return 0;<br/>&#160; &#160; for(int i=0;i&lt;n;i++){<br/>&#160; &#160; &#160; &#160; if(arr1[i]!=arr2[i]) &#160; &#160;return 0;<br/>&#160; &#160; }<br/>&#160; &#160; return 1;<br/>}<br/>int main()<br/>{<br/>&#160; &#160; int n, m;<br/>&#160; &#160; scanf(&#34;%d&#34;,&amp;n);<br/>&#160; &#160; scanf(&#34;%d&#34;,&amp;m);<br/>&#160; &#160; int arr1[n];<br/>&#160; &#160; int arr2[m];<br/>&#160; &#160; int i;<br/>&#160; &#160; for(i = 0; i &lt; n; i++)</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft90{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft91{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft92{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft93{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft94{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page9-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file009.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft90">&#160; &#160; {</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft94">&#160; &#160; &#160; &#160; scanf(&#34;%d&#34;,&amp;arr1[i]);<br/>&#160; &#160; }<br/>&#160; &#160; for(i = 0; i &lt; m; i++)<br/>&#160; &#160; {<br/>&#160; &#160; &#160; &#160; scanf(&#34;%d&#34;,&amp;arr2[i]);<br/>&#160; &#160; }</p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft94">&#160; &#160; if(arrays_equal(arr1, arr2, n, m) == 0)<br/>&#160; &#160; {<br/>&#160; &#160; &#160; &#160; printf(&#34;Not same&#34;);</p>
+<p style="position:absolute;top:337px;left:108px;white-space:nowrap" class="ft94">&#160; &#160; }<br/>&#160; &#160; else</p>
+<p style="position:absolute;top:382px;left:108px;white-space:nowrap" class="ft94">&#160; &#160; &#160; &#160; printf(&#34;Same&#34;); <br/>&#160; &#160; </p>
+<p style="position:absolute;top:428px;left:108px;white-space:nowrap" class="ft94">&#160; &#160; return 0;<br/>}</p>
+<p style="position:absolute;top:496px;left:108px;white-space:nowrap" class="ft91"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:496px;left:178px;white-space:nowrap" class="ft92">Correct</p>
+<p style="position:absolute;top:496px;left:691px;white-space:nowrap" class="ft91"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:565px;left:108px;white-space:nowrap" class="ft93">8. &#160;&#160;Write a program to find the frequency of each element of an array.</p>
+<p style="position:absolute;top:614px;left:108px;white-space:nowrap" class="ft91"><i>Answer</i></p>
+<p style="position:absolute;top:649px;left:108px;white-space:nowrap" class="ft94">#include &lt;stdio.h&gt;<br/><br/>int main()<br/>{<br/>&#160; &#160; int arr[100], freq[100];<br/>&#160; &#160; int size, i, j, count;</p>
+<p style="position:absolute;top:786px;left:108px;white-space:nowrap" class="ft94">&#160; &#160; scanf(&#34;%d&#34;, &amp;size);<br/>&#160; &#160; <br/>&#160; &#160; for(i=0; i&lt;size; i++){<br/>&#160; &#160; &#160; &#160; scanf(&#34;%d&#34;, &amp;arr[i]);<br/>&#160; &#160; &#160; &#160; freq[i] = -1;<br/>&#160; &#160; }</p>
+<p style="position:absolute;top:934px;left:108px;white-space:nowrap" class="ft94">&#160; &#160; for(i=0; i&lt;size; i++){<br/>&#160; &#160; &#160; &#160; if(freq[i]!=0){<br/>&#160; &#160; &#160; &#160; &#160; &#160; for(j=0; j&lt;size; j++){<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; if(arr[j]==arr[i]){<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; freq[j]=0;<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; freq[i]++;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft100{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft101{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft102{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft103{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft104{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft105{font-size:20px;line-height:34px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft106{font-size:21px;line-height:36px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page10-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file010.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft100">&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; }</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft104">&#160; &#160; &#160; &#160; &#160; &#160; }<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>for(i=0; i&lt;size; i++)<br/>&#160; &#160; {<br/>&#160; &#160; &#160; &#160; if(freq[i] != 0)</p>
+<p style="position:absolute;top:279px;left:108px;white-space:nowrap" class="ft104">&#160; &#160; &#160; &#160; {<br/>&#160; &#160; &#160; &#160; &#160; &#160; printf(&#34;%d - %d\n&#34;, arr[i], freq[i]);</p>
+<p style="position:absolute;top:325px;left:108px;white-space:nowrap" class="ft104">&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>}</p>
+<p style="position:absolute;top:416px;left:108px;white-space:nowrap" class="ft101"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:416px;left:178px;white-space:nowrap" class="ft102">Correct</p>
+<p style="position:absolute;top:416px;left:691px;white-space:nowrap" class="ft101"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:485px;left:108px;white-space:nowrap" class="ft103">9. &#160;&#160;Write a Program to remove duplicate elements from the sorted array.</p>
+<p style="position:absolute;top:534px;left:108px;white-space:nowrap" class="ft103">Example:</p>
+<p style="position:absolute;top:571px;left:108px;white-space:nowrap" class="ft106">Input: arr = {1, 2, 3, 4, 4}&#160;<br/>Output: arr = {1, 2, 3, 4}</p>
+<p style="position:absolute;top:657px;left:108px;white-space:nowrap" class="ft101"><i>Answer</i></p>
+<p style="position:absolute;top:692px;left:108px;white-space:nowrap" class="ft100">// You are using GCC</p>
+<p style="position:absolute;top:714px;left:108px;white-space:nowrap" class="ft100">#include&lt;stdio.h&gt;</p>
+<p style="position:absolute;top:760px;left:108px;white-space:nowrap" class="ft104">int remove_duplicate_elements(int arr[], int n)<br/>{</p>
+<p style="position:absolute;top:829px;left:108px;white-space:nowrap" class="ft100">&#160; &#160; if (n==0 || n==1)</p>
+<p style="position:absolute;top:852px;left:108px;white-space:nowrap" class="ft104">&#160; &#160; return n;<br/>&#160; &#160;&#160;<br/>&#160; &#160; int temp[n];<br/>&#160; &#160;&#160;</p>
+<p style="position:absolute;top:943px;left:108px;white-space:nowrap" class="ft104">&#160; &#160; int j = 0;<br/>&#160; &#160; int i;<br/>&#160; &#160; temp[j++]=arr[0];<br/>&#160; &#160; for (i=0; i&lt;n; i++)<br/>&#160; &#160; if (arr[i] != arr[i+1])</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft110{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft111{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft112{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft113{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft114{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page11-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file011.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft110">&#160; &#160; temp[j++] = arr[i+1];</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft114">&#160; &#160;&#160;<br/>&#160; &#160; for (i=0; i&lt;j; i++)<br/>&#160; &#160; arr[i] = temp[i];<br/>&#160; &#160;&#160;<br/>&#160; &#160; return i-1;<br/>}</p>
+<p style="position:absolute;top:314px;left:108px;white-space:nowrap" class="ft110">int main()</p>
+<p style="position:absolute;top:337px;left:108px;white-space:nowrap" class="ft114">{<br/>&#160; &#160; int n;</p>
+<p style="position:absolute;top:382px;left:108px;white-space:nowrap" class="ft114">&#160; &#160; scanf(&#34;%d&#34;,&amp;n);<br/>&#160; &#160; int arr[n];</p>
+<p style="position:absolute;top:428px;left:108px;white-space:nowrap" class="ft114">&#160; &#160; int i;<br/>&#160; &#160; for(i = 0; i &lt; n; i++)</p>
+<p style="position:absolute;top:474px;left:108px;white-space:nowrap" class="ft114">&#160; &#160; {<br/>&#160; &#160; &#160; &#160; scanf(&#34;%d&#34;,&amp;arr[i]);<br/>&#160; &#160; }<br/>&#160; &#160; n = remove_duplicate_elements(arr, n);</p>
+<p style="position:absolute;top:565px;left:108px;white-space:nowrap" class="ft114">&#160; &#160;&#160;<br/>&#160; &#160;&#160;<br/>&#160; &#160; for (i=0; i&lt;n; i++)</p>
+<p style="position:absolute;top:634px;left:108px;white-space:nowrap" class="ft114">&#160; &#160; printf(&#34;%d &#34;,arr[i]);<br/>&#160; &#160;&#160;<br/>&#160; &#160; return 0;</p>
+<p style="position:absolute;top:702px;left:108px;white-space:nowrap" class="ft110">}</p>
+<p style="position:absolute;top:748px;left:108px;white-space:nowrap" class="ft111"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:748px;left:178px;white-space:nowrap" class="ft112">Correct</p>
+<p style="position:absolute;top:748px;left:691px;white-space:nowrap" class="ft111"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:816px;left:108px;white-space:nowrap" class="ft113">10. &#160;&#160;Write a Program to find the sum of perfect square elements in an&#160;</p>
+<p style="position:absolute;top:841px;left:108px;white-space:nowrap" class="ft113">array.&#160;</p>
+<p style="position:absolute;top:890px;left:108px;white-space:nowrap" class="ft111"><i>Answer</i></p>
+<p style="position:absolute;top:925px;left:108px;white-space:nowrap" class="ft114">// You are using GCC<br/>#include&lt;stdio.h&gt;<br/>#include&lt;math.h&gt;</p>
+<p style="position:absolute;top:1016px;left:108px;white-space:nowrap" class="ft114">int isPerfectSquare(int number)<br/>{</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft120{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft121{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft122{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft123{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page12-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file012.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft120">&#160; &#160; int iVar;</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft123">&#160; &#160; float fVar;<br/>&#160; &#160;&#160;<br/>&#160; &#160; fVar=sqrt((double)number);<br/>&#160; &#160; iVar=fVar;<br/>&#160; &#160; if(iVar==fVar)<br/>&#160; &#160; &#160; &#160; return number;</p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft123">&#160; &#160; else<br/>&#160; &#160; &#160; &#160; return 0;<br/>}</p>
+<p style="position:absolute;top:359px;left:108px;white-space:nowrap" class="ft120">int main()</p>
+<p style="position:absolute;top:382px;left:108px;white-space:nowrap" class="ft123">{<br/>&#160; &#160; int n;</p>
+<p style="position:absolute;top:428px;left:108px;white-space:nowrap" class="ft123">&#160; &#160; scanf(&#34;%d&#34;,&amp;n);<br/>&#160; &#160; int arr[n];</p>
+<p style="position:absolute;top:474px;left:108px;white-space:nowrap" class="ft123">&#160; &#160; int i;<br/>&#160; &#160; for(i = 0; i &lt; n; i++)<br/>&#160; &#160; {<br/>&#160; &#160; &#160; &#160; scanf(&#34;%d&#34;,&amp;arr[i]);</p>
+<p style="position:absolute;top:565px;left:108px;white-space:nowrap" class="ft123">&#160; &#160; }<br/>&#160; &#160; int sum = 0;<br/>&#160; &#160; for(i = 0; i &lt; n; i++)</p>
+<p style="position:absolute;top:634px;left:108px;white-space:nowrap" class="ft123">&#160; &#160; {<br/>&#160; &#160; &#160; &#160; sum += isPerfectSquare(arr[i]);<br/>&#160; &#160; }</p>
+<p style="position:absolute;top:702px;left:108px;white-space:nowrap" class="ft123">&#160; &#160; printf(&#34;%d&#34;,sum);<br/>&#160; &#160; return 0;<br/>}</p>
+<p style="position:absolute;top:794px;left:108px;white-space:nowrap" class="ft121"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:794px;left:178px;white-space:nowrap" class="ft122">Correct</p>
+<p style="position:absolute;top:794px;left:691px;white-space:nowrap" class="ft121"><i>Marks : 10/10</i></p>
+</div>
+</body>
+</html>

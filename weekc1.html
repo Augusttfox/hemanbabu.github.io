@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft10{font-size:30px;font-family:BZZZZZ+Roboto-Medium;color:#000000;}
+	.ft11{font-size:23px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft12{font-size:23px;font-family:BZZZZZ+Roboto-Medium;color:#000000;}
+	.ft13{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft14{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft15{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft16{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft17{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page1-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file001.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:289px;white-space:nowrap" class="ft10">CMR Engineering College</p>
+<p style="position:absolute;top:178px;left:108px;white-space:nowrap" class="ft11">Name :Heman Babu</p>
+<link rel="stylesheet" href="style.css" />
+<p style="position:absolute;top:363px;left:308px;white-space:nowrap" class="ft12">C PROGRAMMING LAB_CAT&#160;1</p>
+<p style="position:absolute;top:416px;left:108px;white-space:nowrap" class="ft16">Attempt : 1<br/>Total Mark : 70<br/>Marks Obtained : 64.5</p>
+<p style="position:absolute;top:507px;left:362px;white-space:nowrap" class="ft12">Section 1 : CODING</p>
+<p style="position:absolute;top:560px;left:108px;white-space:nowrap" class="ft17">1. &#160;&#160;Geetha, a maths teacher rewards her students when she teaches a new&#160;<br/>topic. Recently Geetha started teaching the number system. She wants the&#160;<br/>students to convert the decimal number to the binary, octal and&#160;<br/>hexadecimal equivalents. Raj is a bright student but unfortunately when it&#160;</p>
+<p style="position:absolute;top:658px;left:108px;white-space:nowrap" class="ft17">comes to rewards. this time he wants to win the reward. So write a suitable&#160;<br/>code to help him.&#160;</p>
+<p style="position:absolute;top:732px;left:108px;white-space:nowrap" class="ft15"><i>Answer</i></p>
+<p style="position:absolute;top:766px;left:108px;white-space:nowrap" class="ft16">#include&lt;stdio.h&gt;<br/>#include&lt;math.h&gt;<br/>int toBin(int num);<br/>int main(){<br/>&#160; &#160; int n;<br/>&#160; &#160; scanf(&#34;%d&#34;,&amp;n);<br/>&#160; &#160; printf(&#34;Binary Value: %d\n&#34;,toBin(n));<br/>&#160; &#160; printf(&#34;Octal Value: %o\n&#34;,n);<br/>&#160; &#160; printf(&#34;Hexadecimal Value: %x&#34;,n);<br/>&#160; &#160; if(0);<br/>}</p>
+<p style="position:absolute;top:1041px;left:108px;white-space:nowrap" class="ft13">int toBin(int num){</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft20{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft21{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft22{font-size:20px;font-family:CZZZZZ+Roboto;color:#ffa500;}
+	.ft23{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft24{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft25{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page2-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file002.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft20">&#160; &#160; if(num==0) return 0;</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft25">&#160; &#160; int i=0;<br/>&#160; &#160; int tmp=num;<br/>&#160; &#160; while((tmp=tmp&gt;&gt;1)!=0) i++;<br/>&#160; &#160; int result=0;<br/>&#160; &#160; while(i&gt;=0){<br/>&#160; &#160; &#160; &#160; result+=((num&gt;&gt;i)%2)*(int)pow(10,i);</p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft25">&#160; &#160; &#160; &#160; i--;<br/>&#160; &#160; }<br/>&#160; &#160; return result;</p>
+<p style="position:absolute;top:337px;left:108px;white-space:nowrap" class="ft20">}</p>
+<p style="position:absolute;top:382px;left:108px;white-space:nowrap" class="ft21"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:382px;left:178px;white-space:nowrap" class="ft22">Partially correct</p>
+<p style="position:absolute;top:382px;left:685px;white-space:nowrap" class="ft21"><i>Marks : 4.5/10</i></p>
+<p style="position:absolute;top:451px;left:108px;white-space:nowrap" class="ft23">2. &#160;&#160;The distance between two cities (in km.) is given as an input. Write the&#160;</p>
+<p style="position:absolute;top:475px;left:108px;white-space:nowrap" class="ft23">program to convert and print this distance in miles and feet.&#160;</p>
+<p style="position:absolute;top:512px;left:108px;white-space:nowrap" class="ft23">Sample Output:</p>
+<p style="position:absolute;top:549px;left:108px;white-space:nowrap" class="ft23">Enter the distance between two cities: 50 km.</p>
+<p style="position:absolute;top:586px;left:108px;white-space:nowrap" class="ft23">The distance between the two cities is 50 km or 31.07miles or 164042&#160;</p>
+<p style="position:absolute;top:611px;left:108px;white-space:nowrap" class="ft23">foot.&#160;</p>
+<p style="position:absolute;top:648px;left:108px;white-space:nowrap" class="ft23">Hint: 1 km is 0.621371mile and 3280.84foot.&#160;</p>
+<p style="position:absolute;top:685px;left:108px;white-space:nowrap" class="ft23">Note:Display the output to two decimal places.</p>
+<p style="position:absolute;top:734px;left:108px;white-space:nowrap" class="ft21"><i>Answer</i></p>
+<p style="position:absolute;top:768px;left:108px;white-space:nowrap" class="ft25">#include&lt;stdio.h&gt;<br/>int main(){<br/>&#160; &#160; float distance;<br/>&#160; &#160; scanf(&#34;%f&#34;,&amp;distance);<br/>&#160; &#160; printf(&#34;%.2f miles\n%.2f foot&#34;,distance*0.621371,distance*3280.84);<br/>}</p>
+<p style="position:absolute;top:928px;left:108px;white-space:nowrap" class="ft21"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:928px;left:178px;white-space:nowrap" class="ft24">Correct</p>
+<p style="position:absolute;top:928px;left:691px;white-space:nowrap" class="ft21"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:997px;left:108px;white-space:nowrap" class="ft23">3. &#160;&#160;Simplified Fraction&#160;</p>
+<p style="position:absolute;top:1033px;left:108px;white-space:nowrap" class="ft23">St. Patrick Convent organizes a project exhibition &#34;Innovative Minds&#34; every&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft30{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft31{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft32{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft33{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft34{font-size:21px;line-height:36px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft35{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page3-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file003.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft33">year with an objective to provide the platform and unleash the potential of&#160;<br/>the students by showcasing their innovative projects. Pasha is a smart&#160;<br/>high school student and was eager to participate in the fair for the first&#160;<br/>time.<br/>After a lot of ground works, she decided her project and set out to design&#160;<br/>the same. Her project requirement was to design an advanced calculator&#160;<br/>that has a fraction feature that will simplify fractions. The project will&#160;<br/>accept a non-negative integer as a numerator and a positive integer as a&#160;<br/>denominator and outputs the fraction in simplest form. That is, the fraction&#160;<br/>cannot be reduced any further, and the numerator will be less than the&#160;<br/>denominator.</p>
+<p style="position:absolute;top:403px;left:108px;white-space:nowrap" class="ft34">Help Pasha to program her advanced calculator and succeed in her first&#160;<br/>ever project presentation. You can assume that all input numerators and&#160;<br/>denominators will produce valid fractions.<br/>Function Specifications:</p>
+<p style="position:absolute;top:526px;left:108px;white-space:nowrap" class="ft30">Use the function name, return type and the argument type as:</p>
+<p style="position:absolute;top:563px;left:108px;white-space:nowrap" class="ft30">void printValue(int,int)</p>
+<p style="position:absolute;top:600px;left:108px;white-space:nowrap" class="ft30">The function must display the fraction in simplest form.</p>
+<p style="position:absolute;top:637px;left:108px;white-space:nowrap" class="ft33">Note:<br/>The main function is already provided and well defined. The function&#160;<br/>mentioned above is to be defined by you to solve this problem.</p>
+<p style="position:absolute;top:748px;left:108px;white-space:nowrap" class="ft31"><i>Answer</i></p>
+<p style="position:absolute;top:782px;left:108px;white-space:nowrap" class="ft35">#include&lt;stdio.h&gt;<br/>void printValue(int a,int b);</p>
+<p style="position:absolute;top:839px;left:108px;white-space:nowrap" class="ft35">void printValue(int a, int b){<br/>&#160; &#160; if(a&gt;=b) &#160; &#160;printf(&#34;%d&#34;,a/b);<br/>&#160; &#160; for(int i=2;i&lt;(a&lt;b?a:b);i++){</p>
+<p style="position:absolute;top:908px;left:108px;white-space:nowrap" class="ft35">&#160; &#160; &#160; &#160; int flag=1;<br/>&#160; &#160; &#160; &#160; for(int j=2;j&lt;i;j++){<br/>&#160; &#160; &#160; &#160; &#160; &#160; if(i%j==0) {<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; flag=0;<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; break;<br/>&#160; &#160; &#160; &#160; &#160; &#160; }<br/>&#160; &#160; &#160; &#160; }</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft40{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft41{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft42{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft43{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft44{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft45{font-size:20px;line-height:34px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft46{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft47{font-size:21px;line-height:36px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page4-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file004.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft40">&#160; &#160; &#160; &#160; while(flag){</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft44">&#160; &#160; &#160; &#160; &#160; &#160; if(a%i!=0||b%i!=0) &#160;break;<br/>&#160; &#160; &#160; &#160; &#160; &#160; a/=i;<br/>&#160; &#160; &#160; &#160; &#160; &#160; b/=i;<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; if(a%b==0) &#160;return;</p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft44">&#160; &#160; printf(&#34; %d/%d&#34;,a%b,b);<br/>&#160; &#160; for(;0;) return;<br/>}<br/>int main()<br/>{<br/>&#160; &#160; int divisor,dividend;<br/>&#160; &#160; scanf(&#34;%d%d&#34;,&amp;dividend,&amp;divisor);<br/>&#160; &#160; printValue(dividend,divisor);<br/>&#160; &#160; return 0;<br/>}</p>
+<p style="position:absolute;top:531px;left:108px;white-space:nowrap" class="ft41"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:531px;left:178px;white-space:nowrap" class="ft42">Correct</p>
+<p style="position:absolute;top:531px;left:691px;white-space:nowrap" class="ft41"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:599px;left:108px;white-space:nowrap" class="ft47">4. &#160;&#160;Write a program that calculates mileage remuneration for a&#160;<br/>salesperson at a rate of Rs.25 per mile. Your program should interact with&#160;<br/>the user in this manner:<br/>Sample Output:&#160;</p>
+<p style="position:absolute;top:722px;left:108px;white-space:nowrap" class="ft43">MILEAGE REMUNERATION CALCULATOR</p>
+<p style="position:absolute;top:759px;left:108px;white-space:nowrap" class="ft43">Enter beginning odometer reading: 13505.2</p>
+<p style="position:absolute;top:796px;left:108px;white-space:nowrap" class="ft43">Enter ending odometer reading: 13810.6</p>
+<p style="position:absolute;top:833px;left:108px;white-space:nowrap" class="ft43">You travelled 305.4 miles. At Rs.25 per mile, your remuneration is Rs.7635</p>
+<p style="position:absolute;top:882px;left:108px;white-space:nowrap" class="ft46">Note: Display the output to two decimal places and round the remuneration&#160;<br/>value.</p>
+<p style="position:absolute;top:956px;left:108px;white-space:nowrap" class="ft41"><i>Answer</i></p>
+<p style="position:absolute;top:990px;left:108px;white-space:nowrap" class="ft44">#include&lt;stdio.h&gt;<br/>int main(){<br/>&#160; &#160; float b,e;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft50{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft51{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft52{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft53{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft54{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft55{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page5-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file005.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft50">&#160; &#160; scanf(&#34;%f %f&#34;,&amp;b,&amp;e);</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft54">&#160; &#160; printf(&#34;%.2f %.0f.00&#34;,e-b,25*(e-b));<br/>}</p>
+<p style="position:absolute;top:199px;left:108px;white-space:nowrap" class="ft51"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:199px;left:178px;white-space:nowrap" class="ft52">Correct</p>
+<p style="position:absolute;top:199px;left:691px;white-space:nowrap" class="ft51"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft55">5. &#160;&#160;Blood group is identified based on three factors namely, two Antibodies&#160;<br/>(ANTI-A,ANTI-B) in red blood cell decides the blood group and&#160;<br/>antigens(ANTI-D) in plasma decides +ve or -ve blood. Based on the three&#160;<br/>values blood group is decided as follows</p>
+<p style="position:absolute;top:428px;left:108px;white-space:nowrap" class="ft55">Get the value for ANTI-A, ANTI-B and ANTI-D from user and find the blood&#160;<br/>group.</p>
+<p style="position:absolute;top:502px;left:108px;white-space:nowrap" class="ft51"><i>Answer</i></p>
+<p style="position:absolute;top:536px;left:108px;white-space:nowrap" class="ft54">#include&lt;stdio.h&gt;<br/>#include&lt;string.h&gt;<br/>int main(){<br/>&#160; &#160; int a,b,d;<br/>&#160; &#160; scanf(&#34;%d%d%d&#34;,&amp;a,&amp;b,&amp;d);<br/>&#160; &#160; if(a&amp;&amp;b) &#160; &#160; &#160; &#160;printf(&#34;O&#34;);</p>
+<p style="position:absolute;top:673px;left:108px;white-space:nowrap" class="ft54">&#160; &#160; else if(!a&amp;&amp;b) &#160;printf(&#34;A&#34;);<br/>&#160; &#160; else if(a&amp;&amp;!b) &#160;printf(&#34;B&#34;);<br/>&#160; &#160; else &#160; &#160; &#160; &#160; &#160; &#160;printf(&#34;AB&#34;);<br/>&#160; &#160;&#160;</p>
+<p style="position:absolute;top:765px;left:108px;white-space:nowrap" class="ft54">&#160; &#160; printf(&#34; %stive&#34;,d?&#34;Nega&#34;:&#34;Posi&#34;);<br/>}</p>
+<p style="position:absolute;top:833px;left:108px;white-space:nowrap" class="ft51"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:833px;left:178px;white-space:nowrap" class="ft52">Correct</p>
+<p style="position:absolute;top:833px;left:691px;white-space:nowrap" class="ft51"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:902px;left:108px;white-space:nowrap" class="ft55">6. &#160;&#160;Joseph recently joined in a nationalized bank. His daily task is to give&#160;<br/>the amount to customers. He wants to find the minimum number of notes/<br/>coins required for the given amount. Write a program to input the amount&#160;</p>
+<p style="position:absolute;top:975px;left:108px;white-space:nowrap" class="ft55">from the user and print the minimum number of notes and coins (Rs.2000,&#160;<br/>Rs. 500, Rs.200, Rs.100, Rs.50, Rs.20, Rs.10, Rs5, Rs.2, Rs.1) required for&#160;<br/>the amount.&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft60{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft61{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft62{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft63{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft64{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft65{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page6-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file006.png" alt="background image"/>
+<p style="position:absolute;top:120px;left:108px;white-space:nowrap" class="ft60"><i>Answer</i></p>
+<p style="position:absolute;top:155px;left:108px;white-space:nowrap" class="ft64">#include&lt;stdio.h&gt;<br/>int main(){<br/>&#160; &#160; int money;</p>
+<p style="position:absolute;top:223px;left:108px;white-space:nowrap" class="ft64">&#160; &#160; scanf(&#34;%d&#34;,&amp;money);<br/>&#160; &#160; int denomination[]={2000,500,200,100,50,20,10,5,2,1};</p>
+<p style="position:absolute;top:269px;left:108px;white-space:nowrap" class="ft64">&#160; &#160; printf(&#34;Denomination&#34;);<br/>&#160; &#160; for(int i=0;i&lt;10;i++){<br/>&#160; &#160; &#160; &#160; printf(&#34;\n%d = %d&#34;,denomination[i],money/denomination[i]);<br/>&#160; &#160; &#160; &#160; money%=denomination[i];</p>
+<p style="position:absolute;top:360px;left:108px;white-space:nowrap" class="ft64">&#160; &#160; }<br/>&#160; &#160; if(0);</p>
+<p style="position:absolute;top:406px;left:108px;white-space:nowrap" class="ft61">}</p>
+<p style="position:absolute;top:452px;left:108px;white-space:nowrap" class="ft60"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:452px;left:178px;white-space:nowrap" class="ft62">Correct</p>
+<p style="position:absolute;top:452px;left:691px;white-space:nowrap" class="ft60"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:520px;left:108px;white-space:nowrap" class="ft63">7. &#160;&#160;Hitler decided to declare war on Americans so he decided to build a&#160;</p>
+<p style="position:absolute;top:545px;left:108px;white-space:nowrap" class="ft65">gun on their own.These guns consist of N pieces of Steel of different&#160;<br/>length. These must be joined in order to create the gun. The cost to&#160;<br/>connect two pieces is equal to some of their lengths. To help Hitler write a&#160;<br/>program that can calculate the lowest possible cost to build the Gun.</p>
+<p style="position:absolute;top:668px;left:108px;white-space:nowrap" class="ft60"><i>Answer</i></p>
+<p style="position:absolute;top:702px;left:108px;white-space:nowrap" class="ft64">#include&lt;stdio.h&gt;<br/>void sort(int *a, int len);<br/>int helpHitler(int *a, int len);</p>
+<p style="position:absolute;top:771px;left:108px;white-space:nowrap" class="ft64">int main(){<br/>&#160; &#160; int n;<br/>&#160; &#160; scanf(&#34;%d&#34;,&amp;n);<br/>&#160; &#160; int a[n];<br/>&#160; &#160; for(int i=0;i&lt;n;i++) &#160; &#160;scanf(&#34;%d&#34;,&amp;a[i]);<br/>&#160; &#160; sort(a,n);</p>
+<p style="position:absolute;top:908px;left:108px;white-space:nowrap" class="ft64">&#160; &#160; printf(&#34;%d&#34;,helpHitler(a, n));<br/>}<br/>void sort(int *a, int len){<br/>&#160; &#160; int result[100];<br/>&#160; &#160; for(int i=0; i&lt;len-1; i++){<br/>&#160; &#160; &#160; &#160; for(int j=0; j&lt;len-i-1; j++){<br/>&#160; &#160; &#160; &#160; &#160; &#160; if(a[j+1]&lt;a[j]){</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft70{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft71{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft72{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft73{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page7-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file007.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft70">&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; int temp = a[j];</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft73">&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; a[j]=a[j+1];<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; a[j+1]=temp;<br/>&#160; &#160; &#160; &#160; &#160; &#160; }<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>}</p>
+<p style="position:absolute;top:291px;left:108px;white-space:nowrap" class="ft73">int helpHitler(int *a, int len){<br/>&#160; &#160; int totalcost=0;</p>
+<p style="position:absolute;top:337px;left:108px;white-space:nowrap" class="ft73">&#160; &#160; int cost=a[0];<br/>&#160; &#160; for(int i=1; i&lt;len; i++){</p>
+<p style="position:absolute;top:382px;left:108px;white-space:nowrap" class="ft73">&#160; &#160; &#160; &#160; cost=cost+a[i];<br/>&#160; &#160; &#160; &#160; totalcost+=cost;</p>
+<p style="position:absolute;top:428px;left:108px;white-space:nowrap" class="ft73">&#160; &#160; }<br/>&#160; &#160; return totalcost;</p>
+<p style="position:absolute;top:474px;left:108px;white-space:nowrap" class="ft70">}</p>
+<p style="position:absolute;top:519px;left:108px;white-space:nowrap" class="ft71"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:519px;left:178px;white-space:nowrap" class="ft72">Correct</p>
+<p style="position:absolute;top:519px;left:691px;white-space:nowrap" class="ft71"><i>Marks : 10/10</i></p>
+</div>
+</body>
+</html>
