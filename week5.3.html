@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft10{font-size:30px;font-family:BZZZZZ+Roboto-Medium;color:#000000;}
+	.ft11{font-size:23px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft12{font-size:23px;font-family:BZZZZZ+Roboto-Medium;color:#000000;}
+	.ft13{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft14{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft15{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft16{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft17{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page1-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file001.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:289px;white-space:nowrap" class="ft10">CMR Engineering College</p>
+<link rel="stylesheet" href="style.css" />
+<p style="position:absolute;top:363px;left:129px;white-space:nowrap" class="ft12">C PROGRAMMING LAB_EXERCISE_SINGLE DIMENSIONAL ARRAY</p>
+<p style="position:absolute;top:416px;left:108px;white-space:nowrap" class="ft16">Attempt : 1<br/>Total Mark : 100<br/>Marks Obtained : 100</p>
+<p style="position:absolute;top:507px;left:362px;white-space:nowrap" class="ft12">Section 1 : CODING</p>
+<p style="position:absolute;top:560px;left:108px;white-space:nowrap" class="ft14">1. &#160;&#160;Problem statement</p>
+<p style="position:absolute;top:597px;left:108px;white-space:nowrap" class="ft14">Best Couple Event</p>
+<p style="position:absolute;top:634px;left:108px;white-space:nowrap" class="ft14">&#34;Shades&#34; Television Channel organizes a fun-filled event named &#34;Best&#160;</p>
+<p style="position:absolute;top:658px;left:108px;white-space:nowrap" class="ft17">Couple 2020&#34;, where in married couples would be invited and given many&#160;<br/>tasks and activities. Based on some criteria decided by the jury, a best&#160;<br/>couple will be chosen.</p>
+<p style="position:absolute;top:757px;left:108px;white-space:nowrap" class="ft17">N couples registered for the event and each couple was given a&#160;<br/>registration number(it may repeat). One specific couple's registration Id got&#160;</p>
+<p style="position:absolute;top:806px;left:108px;white-space:nowrap" class="ft14">missed. The event coordinators wanted your help in finding the missing Id.</p>
+<p style="position:absolute;top:855px;left:108px;white-space:nowrap" class="ft17">Write a program which takes an array of registration numbers as input and&#160;<br/>outputs the missing registration Id.</p>
+<p style="position:absolute;top:929px;left:108px;white-space:nowrap" class="ft15"><i>Answer</i></p>
+<p style="position:absolute;top:963px;left:108px;white-space:nowrap" class="ft16">#include&lt;stdio.h&gt;<br/>int main(){<br/>&#160; &#160; int n;<br/>&#160; &#160; int reg[50];<br/>&#160; &#160; scanf(&#34;%d&#34;,&amp;n);</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft20{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft21{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft22{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft23{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft24{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft25{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft26{font-size:21px;line-height:36px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page2-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file002.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft20">&#160; &#160; for(int i=0; i&lt;n; i++) &#160;scanf(&#34;%d&#34;,&amp;reg[i]);</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft24">&#160; &#160;&#160;<br/>&#160; &#160; int suspect;<br/>&#160; &#160; for(int i=0; i&lt;n; i++){<br/>&#160; &#160; &#160; &#160; suspect=i;<br/>&#160; &#160; &#160; &#160; for(int j=0; j&lt;n; j++){<br/>&#160; &#160; &#160; &#160; &#160; &#160; if(i!=j&amp;&amp;reg[i]==reg[j]){</p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;suspect=-1;<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;break;<br/>&#160; &#160; &#160; &#160; &#160; &#160; }</p>
+<p style="position:absolute;top:337px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; &#160; &#160; }<br/>&#160; &#160; &#160; &#160; if(suspect!=-1) break;</p>
+<p style="position:absolute;top:382px;left:108px;white-space:nowrap" class="ft24">&#160; &#160; }<br/>&#160; &#160; printf(&#34;%d&#34;,reg[suspect]);</p>
+<p style="position:absolute;top:428px;left:108px;white-space:nowrap" class="ft20">}</p>
+<p style="position:absolute;top:474px;left:108px;white-space:nowrap" class="ft21"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:474px;left:178px;white-space:nowrap" class="ft22">Correct</p>
+<p style="position:absolute;top:474px;left:691px;white-space:nowrap" class="ft21"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:542px;left:108px;white-space:nowrap" class="ft23">2. &#160;&#160;Write a program that uses the following arrays:</p>
+<p style="position:absolute;top:579px;left:108px;white-space:nowrap" class="ft23">empId[7]: An array of seven long integers to hold employee identification&#160;</p>
+<p style="position:absolute;top:604px;left:108px;white-space:nowrap" class="ft23">numbers. The array should be initialized with the following numbers:</p>
+<p style="position:absolute;top:641px;left:108px;white-space:nowrap" class="ft25">5658845 &#160; 4520125 &#160; &#160;7895122 &#160; &#160; &#160; &#160; 8777541 &#160; &#160; &#160; &#160;8451277 &#160; &#160; &#160; &#160; &#160;<br/>1302850 &#160; &#160; &#160; &#160; &#160; &#160;7580489</p>
+<p style="position:absolute;top:702px;left:108px;white-space:nowrap" class="ft25">hours[7]: An array of seven integers to hold the number of hours worked by&#160;<br/>each mployee</p>
+<p style="position:absolute;top:764px;left:108px;white-space:nowrap" class="ft23">payRate[7] : An array of seven doubles to hold each employee’s hourly pay&#160;</p>
+<p style="position:absolute;top:788px;left:108px;white-space:nowrap" class="ft23">rate&#160;</p>
+<p style="position:absolute;top:825px;left:108px;white-space:nowrap" class="ft23">wages[7]: An array of seven doubles to hold each employee’s gross wages</p>
+<p style="position:absolute;top:862px;left:108px;white-space:nowrap" class="ft25">The program should relate the data in each array through the subscripts.&#160;<br/>For example, the number in element 0 of the hours array should be the&#160;<br/>number of hours worked by the employee whose identification number is&#160;<br/>stored in element 0 of the empId array.</p>
+<p style="position:absolute;top:973px;left:108px;white-space:nowrap" class="ft26">That same employee’s pay rate should be stored in element 0 of the&#160;<br/>payRate array.<br/>It should then calculate the gross wages for that employee (hours times&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft30{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft31{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft32{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft33{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft34{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft35{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page3-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file003.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft34">pay rate) and store them in the wages array. After the data has been&#160;<br/>entered for all the employees, the program should display each employee’s&#160;<br/>identification number and gross wages.</p>
+<p style="position:absolute;top:219px;left:108px;white-space:nowrap" class="ft31"><i>Answer</i></p>
+<p style="position:absolute;top:253px;left:108px;white-space:nowrap" class="ft35">#include&lt;stdio.h&gt;<br/>int main(){<br/>&#160; &#160; const int n=7;<br/>&#160; &#160; long int empId[n];<br/>&#160; &#160; int hours[n];</p>
+<p style="position:absolute;top:367px;left:108px;white-space:nowrap" class="ft35">&#160; &#160; double payRate[n];<br/>&#160; &#160;&#160;</p>
+<p style="position:absolute;top:413px;left:108px;white-space:nowrap" class="ft35">&#160; &#160; int i;<br/>&#160; &#160; for(i=0; i&lt;n; i++) &#160;scanf(&#34;%ld %d %lf&#34;,&amp;empId[i],&amp;hours[i],&amp;payRate[i]);<br/>&#160; &#160; for(i=0; i&lt;n; i++) &#160;printf(&#34;%ld %.2lf\n&#34;,empId[i],hours[i]*payRate[i]);<br/>}</p>
+<p style="position:absolute;top:527px;left:108px;white-space:nowrap" class="ft31"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:527px;left:178px;white-space:nowrap" class="ft33">Correct</p>
+<p style="position:absolute;top:527px;left:691px;white-space:nowrap" class="ft31"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:596px;left:108px;white-space:nowrap" class="ft30">3. &#160;&#160;Problem statement</p>
+<p style="position:absolute;top:633px;left:108px;white-space:nowrap" class="ft30">Write a program to search an element in a given array. If the number to be&#160;</p>
+<p style="position:absolute;top:657px;left:108px;white-space:nowrap" class="ft34">searched is present in the array, display the number of times it appears in&#160;<br/>the array else print 0.</p>
+<p style="position:absolute;top:731px;left:108px;white-space:nowrap" class="ft31"><i>Answer</i></p>
+<p style="position:absolute;top:765px;left:108px;white-space:nowrap" class="ft35">#include&lt;stdio.h&gt;<br/>int main(){<br/>&#160; &#160; int n;</p>
+<p style="position:absolute;top:834px;left:108px;white-space:nowrap" class="ft35">&#160; &#160; scanf(&#34;%d&#34;, &amp;n);<br/>&#160; &#160;&#160;</p>
+<p style="position:absolute;top:880px;left:108px;white-space:nowrap" class="ft35">&#160; &#160; int a[n], i;<br/>&#160; &#160; for(i=0;i&lt;n;i++) &#160; &#160;scanf(&#34;%d&#34;,&amp;a[i]);<br/>&#160; &#160;&#160;<br/>&#160; &#160; int term;</p>
+<p style="position:absolute;top:971px;left:108px;white-space:nowrap" class="ft35">&#160; &#160; scanf(&#34;%d&#34;, &amp;term);<br/>&#160; &#160;&#160;<br/>&#160; &#160; int count=0;<br/>&#160; &#160; for(i=0;i&lt;n;i++) &#160; &#160;if(a[i]==term) &#160;count++;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft40{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft41{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft42{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft43{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft44{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft45{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page4-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file004.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft40">&#160; &#160;&#160;</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft44">&#160; &#160; printf(&#34;%d - %d&#34;,term, count);<br/>}</p>
+<p style="position:absolute;top:199px;left:108px;white-space:nowrap" class="ft41"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:199px;left:178px;white-space:nowrap" class="ft42">Correct</p>
+<p style="position:absolute;top:199px;left:691px;white-space:nowrap" class="ft41"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft43">4. &#160;&#160;Problem &#160;statement</p>
+<p style="position:absolute;top:305px;left:108px;white-space:nowrap" class="ft45">Write a program to get an integer array find the second largest element&#160;<br/>(where array has only distinct elements)</p>
+<p style="position:absolute;top:379px;left:108px;white-space:nowrap" class="ft41"><i>Answer</i></p>
+<p style="position:absolute;top:413px;left:108px;white-space:nowrap" class="ft44">#include&lt;stdio.h&gt;<br/>int main(){<br/>&#160; &#160; int n;<br/>&#160; &#160; scanf(&#34;%d&#34;,&amp;n);</p>
+<p style="position:absolute;top:504px;left:108px;white-space:nowrap" class="ft44">&#160; &#160;&#160;<br/>&#160; &#160; int a[n];<br/>&#160; &#160; for(int i=0; i&lt;n; i++) &#160;scanf(&#34;%d&#34;,&amp;a[i]);<br/>&#160; &#160;&#160;</p>
+<p style="position:absolute;top:596px;left:108px;white-space:nowrap" class="ft44">&#160; &#160; for(int j=0;j&lt;2; j++){<br/>&#160; &#160; &#160; &#160; for(int i=0;i&lt;n-j-1;i++){<br/>&#160; &#160; &#160; &#160; &#160; &#160; if(a[i]&gt;a[i+1]){<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; int temp=a[i];<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; a[i]=a[i+1];<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; a[i+1]=temp;<br/>&#160; &#160; &#160; &#160; &#160; &#160; }<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; printf(&#34;%d&#34;,a[n-2]);<br/>}</p>
+<p style="position:absolute;top:870px;left:108px;white-space:nowrap" class="ft41"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:870px;left:178px;white-space:nowrap" class="ft42">Correct</p>
+<p style="position:absolute;top:870px;left:691px;white-space:nowrap" class="ft41"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:939px;left:108px;white-space:nowrap" class="ft45">5. &#160;&#160;Manoj lives in a snowy country like Canada. He records the rainfall&#160;<br/>each month and wants to identify the rate of rainfall for that particular year.&#160;<br/>Store the rainfall of each of the 12 months in an array. Calculate the sum,&#160;<br/>average and the month with low and high rainfall. Write a program for the&#160;<br/>same.</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft50{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft51{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft52{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft53{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page5-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file005.png" alt="background image"/>
+<p style="position:absolute;top:120px;left:108px;white-space:nowrap" class="ft50"><i>Answer</i></p>
+<p style="position:absolute;top:155px;left:108px;white-space:nowrap" class="ft53">#include&lt;stdio.h&gt;<br/>int total(int rain[]);<br/>int lowest(int rain[]);</p>
+<p style="position:absolute;top:223px;left:108px;white-space:nowrap" class="ft51">int highest(int rain[]);</p>
+<p style="position:absolute;top:269px;left:108px;white-space:nowrap" class="ft53">int main(){<br/>&#160; &#160; int rain[12], i;<br/>&#160; &#160; for(i=0;i&lt;12;i++) &#160; scanf(&#34;%d&#34;,&amp;rain[i]);</p>
+<p style="position:absolute;top:360px;left:108px;white-space:nowrap" class="ft53">&#160; &#160; for(i=0;i&lt;12;i++){<br/>&#160; &#160; &#160; &#160; if(rain[i]&lt;0){</p>
+<p style="position:absolute;top:406px;left:108px;white-space:nowrap" class="ft53">&#160; &#160; &#160; &#160; &#160; &#160; printf(&#34;Invalid input&#34;);<br/>&#160; &#160; &#160; &#160; &#160; &#160; return 0;<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160;&#160;<br/>&#160; &#160; printf(&#34;Total rainfall : %d\n&#34;,total(rain));<br/>&#160; &#160; printf(&#34;Average rainfall : %d\n&#34;,total(rain)/12);<br/>&#160; &#160; printf(&#34;Lowest rainfall month : %d\n&#34;,lowest(rain));<br/>&#160; &#160; printf(&#34;Highest rainfall month : %d&#34;,highest(rain));<br/>}<br/>int total(int rain[]){<br/>&#160; &#160; int sum=0;</p>
+<p style="position:absolute;top:680px;left:108px;white-space:nowrap" class="ft53">&#160; &#160; for(int i=0; i&lt;12; i++) sum+=rain[i];<br/>&#160; &#160; return sum;<br/>}<br/>int lowest(int rain[]){</p>
+<p style="position:absolute;top:772px;left:108px;white-space:nowrap" class="ft51">&#160; &#160; int lowest=0;</p>
+<p style="position:absolute;top:794px;left:108px;white-space:nowrap" class="ft53">&#160; &#160; for(int i=0; i&lt;12; i++) if(rain[i]&lt;rain[lowest]) &#160; &#160;lowest=i;<br/>&#160; &#160; return lowest+1;<br/>}<br/>int highest(int rain[]){<br/>&#160; &#160; int highest=0;<br/>&#160; &#160; for(int i=0; i&lt;12; i++) if(rain[i]&gt;rain[highest]) &#160; highest=i;<br/>&#160; &#160; return highest+1;<br/>}</p>
+<p style="position:absolute;top:1000px;left:108px;white-space:nowrap" class="ft50"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:1000px;left:178px;white-space:nowrap" class="ft52">Correct</p>
+<p style="position:absolute;top:1000px;left:691px;white-space:nowrap" class="ft50"><i>Marks : 10/10</i></p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft60{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft61{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft62{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft63{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft64{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft65{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page6-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file006.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft60">6. &#160;&#160;Problem statement</p>
+<p style="position:absolute;top:145px;left:108px;white-space:nowrap" class="ft64">Count the number of pairs in an integer array whose sum equals the given&#160;<br/>sum (all elements are unique).</p>
+<p style="position:absolute;top:219px;left:108px;white-space:nowrap" class="ft61"><i>Answer</i></p>
+<p style="position:absolute;top:253px;left:108px;white-space:nowrap" class="ft65">#include&lt;stdio.h&gt;<br/>int main(){<br/>&#160; &#160; int sum, n;<br/>&#160; &#160; scanf(&#34;%d%d&#34;,&amp;sum,&amp;n);<br/>&#160; &#160; int num[n];</p>
+<p style="position:absolute;top:367px;left:108px;white-space:nowrap" class="ft65">&#160; &#160; for(int i=0; i&lt;n; i++) &#160;scanf(&#34;%d&#34;,&amp;num[i]);<br/>&#160; &#160;&#160;</p>
+<p style="position:absolute;top:413px;left:108px;white-space:nowrap" class="ft65">&#160; &#160; int count=0;<br/>&#160; &#160; for(int i=0; i&lt;n; i++) &#160;for(int j=i+1; j&lt;n; j++) &#160; &#160;if(num[i]+num[j]==sum) &#160;count++;</p>
+<p style="position:absolute;top:482px;left:108px;white-space:nowrap" class="ft62">&#160; &#160; printf(&#34;%d&#34;,count);</p>
+<p style="position:absolute;top:504px;left:108px;white-space:nowrap" class="ft62">}</p>
+<p style="position:absolute;top:550px;left:108px;white-space:nowrap" class="ft61"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:550px;left:178px;white-space:nowrap" class="ft63">Correct</p>
+<p style="position:absolute;top:550px;left:691px;white-space:nowrap" class="ft61"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:619px;left:108px;white-space:nowrap" class="ft60">7. &#160;&#160;Ramu wants to get N elements in an array and a number to be&#160;</p>
+<p style="position:absolute;top:643px;left:108px;white-space:nowrap" class="ft64">multiplied with the array elements. He wants to display the multiplied&#160;<br/>result in descending order. Help Ramu to complete this task.&#160;</p>
+<p style="position:absolute;top:717px;left:108px;white-space:nowrap" class="ft61"><i>Answer</i></p>
+<p style="position:absolute;top:751px;left:108px;white-space:nowrap" class="ft65">#include&lt;stdio.h&gt;<br/>int main(){<br/>&#160; &#160; int n;</p>
+<p style="position:absolute;top:820px;left:108px;white-space:nowrap" class="ft65">&#160; &#160; scanf(&#34;%d&#34;, &amp;n);<br/>&#160; &#160; int a[n];</p>
+<p style="position:absolute;top:866px;left:108px;white-space:nowrap" class="ft65">&#160; &#160; for(int i=0; i&lt;n; i++) &#160;scanf(&#34;%d&#34;,&amp;a[i]);<br/>&#160; &#160; int coef;</p>
+<p style="position:absolute;top:911px;left:108px;white-space:nowrap" class="ft65">&#160; &#160; scanf(&#34;%d&#34;,&amp;coef);<br/>&#160; &#160;&#160;<br/>&#160; &#160; for(int i=0; i&lt;n-1; i++){<br/>&#160; &#160; &#160; &#160; for(int j=0; j&lt;n-i-1; j++){<br/>&#160; &#160; &#160; &#160; &#160; &#160; if(a[j]&lt;a[j+1]){<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; int temp=a[j];<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; a[j]=a[j+1];</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft70{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft71{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft72{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft73{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft74{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft75{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page7-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file007.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft70">&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; a[j+1]=temp;</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft74">&#160; &#160; &#160; &#160; &#160; &#160; }<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160;&#160;<br/>&#160; &#160; for(int i=0; i&lt;n; i++) &#160;printf(&#34;%d &#34;,coef*a[i]);<br/>}</p>
+<p style="position:absolute;top:291px;left:108px;white-space:nowrap" class="ft71"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:291px;left:178px;white-space:nowrap" class="ft72">Correct</p>
+<p style="position:absolute;top:291px;left:691px;white-space:nowrap" class="ft71"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:359px;left:108px;white-space:nowrap" class="ft75">8. &#160;&#160;In a gymnastics or diving competition, each contestant’s score is&#160;<br/>calculated by dropping the lowest and highest scores and then adding the&#160;<br/>remaining scores. Write a program that allows the user to enter eight&#160;</p>
+<p style="position:absolute;top:433px;left:108px;white-space:nowrap" class="ft75">judges scores and then outputs the point received by the contestant. A&#160;<br/>judge awards point between 1 and 10, with 1 being the lowest and 10&#160;<br/>being the highest.&#160;</p>
+<p style="position:absolute;top:532px;left:108px;white-space:nowrap" class="ft71"><i>Answer</i></p>
+<p style="position:absolute;top:566px;left:108px;white-space:nowrap" class="ft74">#include&lt;stdio.h&gt;<br/>int main(){<br/>&#160; &#160; float score[8];<br/>&#160; &#160; int i;<br/>&#160; &#160; for(i=0; i&lt;8; i++) &#160;scanf(&#34;%f&#34;,&amp;score[i]);</p>
+<p style="position:absolute;top:680px;left:108px;white-space:nowrap" class="ft74">&#160; &#160;&#160;<br/>&#160; &#160; int lowest=0, highest=0;<br/>&#160; &#160; for(i=1; i&lt;8; i++){<br/>&#160; &#160; &#160; &#160; if(score[i]&lt;score[lowest]) &#160;lowest=i;</p>
+<p style="position:absolute;top:772px;left:108px;white-space:nowrap" class="ft70">&#160; &#160; &#160; &#160; if(score[i]&gt;score[highest]) highest=i;</p>
+<p style="position:absolute;top:794px;left:108px;white-space:nowrap" class="ft74">&#160; &#160; }<br/>&#160; &#160;&#160;<br/>&#160; &#160; float total=0;<br/>&#160; &#160; for(i=0; i&lt;8; i++){<br/>&#160; &#160; &#160; &#160; if(i==lowest || i==highest) continue;<br/>&#160; &#160; &#160; &#160; total+=score[i];<br/>&#160; &#160; }<br/>&#160; &#160;&#160;<br/>&#160; &#160; float average=total/6;<br/>&#160; &#160;&#160;<br/>&#160; &#160; printf(&#34;Lowest score : %.2f\n&#34;,score[lowest]);<br/>&#160; &#160; printf(&#34;Highest score : %.2f\n&#34;,score[highest]);</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft80{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft81{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft82{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft83{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft84{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft85{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft86{font-size:21px;line-height:36px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page8-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file008.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft80">&#160; &#160; printf(&#34;Total point : %.2f\n&#34;,total);</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft84">&#160; &#160; printf(&#34;Average : %.2f&#34;,average);<br/>}</p>
+<p style="position:absolute;top:199px;left:108px;white-space:nowrap" class="ft81"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:199px;left:178px;white-space:nowrap" class="ft82">Correct</p>
+<p style="position:absolute;top:199px;left:691px;white-space:nowrap" class="ft81"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:268px;left:108px;white-space:nowrap" class="ft83">9. &#160;&#160;Problem statement</p>
+<p style="position:absolute;top:305px;left:108px;white-space:nowrap" class="ft85">The police training academy wants to survey the reports of new joiners of&#160;<br/>n men. The different parameters used to select the best men are height,&#160;<br/>weight, age and chest in cms. Write a program to find the men who are&#160;<br/>eligible to be selected.<br/>Age should be greater than 18 and less than 25Height should be greater&#160;<br/>than 5.7 and less than 6.0 inchesWeight should be greater than 45 and&#160;<br/>less than 60 kg.Chest should be greater than 45 cms.</p>
+<p style="position:absolute;top:502px;left:108px;white-space:nowrap" class="ft81"><i>Answer</i></p>
+<p style="position:absolute;top:536px;left:108px;white-space:nowrap" class="ft84">#include&lt;stdio.h&gt;<br/>int main(){<br/>&#160; &#160; int n;<br/>&#160; &#160; scanf(&#34;%d&#34;,&amp;n);<br/>&#160; &#160; int age[n];<br/>&#160; &#160; float height[n];</p>
+<p style="position:absolute;top:673px;left:108px;white-space:nowrap" class="ft84">&#160; &#160; int weight[n];<br/>&#160; &#160; int chest[n];<br/>&#160; &#160; for(int i=0; i&lt;n; i++) &#160; &#160;scanf(&#34;%d%f%d%d&#34;,&amp;age[i],&amp;height[i],&amp;weight[i],&amp;chest[i]);<br/>&#160; &#160;&#160;</p>
+<p style="position:absolute;top:765px;left:108px;white-space:nowrap" class="ft84">&#160; &#160; int eligible[n];<br/>&#160; &#160; for(int i=0; i&lt;n; i++){<br/>&#160; &#160; &#160; &#160; eligible[i]=1;<br/>&#160; &#160; &#160; &#160; if( !(age[i]&gt;18 &amp;&amp; age[i]&lt;25) &#160; &#160; &#160; ||<br/>&#160; &#160; &#160; &#160; &#160; &#160; !(height[i]&gt;5.7 &amp;&amp; height[i]&lt;6) ||<br/>&#160; &#160; &#160; &#160; &#160; &#160; !(weight[i]&gt;45 &amp;&amp; weight[i]&lt;60) ||<br/>&#160; &#160; &#160; &#160; &#160; &#160; !(chest[i]&gt;45)){<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; eligible[i]=0;<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160;&#160;<br/>&#160; &#160; for(int i=0; i&lt;n; i++){<br/>&#160; &#160; &#160; &#160; if(eligible[i]) printf(&#34;%d &#34;,i);</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft90{font-size:20px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft91{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft92{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+	.ft93{font-size:21px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft94{font-size:21px;line-height:24px;font-family:CZZZZZ+Roboto;color:#000000;}
+	.ft95{font-size:20px;line-height:22px;font-family:CZZZZZ+Roboto;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page9-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file009.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft90">&#160; &#160; }</p>
+<p style="position:absolute;top:131px;left:108px;white-space:nowrap" class="ft90">}</p>
+<p style="position:absolute;top:177px;left:108px;white-space:nowrap" class="ft91"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:177px;left:178px;white-space:nowrap" class="ft92">Correct</p>
+<p style="position:absolute;top:177px;left:691px;white-space:nowrap" class="ft91"><i>Marks : 10/10</i></p>
+<p style="position:absolute;top:245px;left:108px;white-space:nowrap" class="ft94">10. &#160;&#160;Niranjan has a set of numbers stored in an array in which he has to&#160;<br/>find the identical numbers and its positions along with the number of&#160;<br/>occurrences. Write a program to find the same.</p>
+<p style="position:absolute;top:344px;left:108px;white-space:nowrap" class="ft91"><i>Answer</i></p>
+<p style="position:absolute;top:378px;left:108px;white-space:nowrap" class="ft95">#include&lt;stdio.h&gt;<br/>int main(){</p>
+<p style="position:absolute;top:424px;left:108px;white-space:nowrap" class="ft95">&#160; &#160; int n;<br/>&#160; &#160; scanf(&#34;%d&#34;,&amp;n);<br/>&#160; &#160; int i;<br/>&#160; &#160; int a[n];<br/>&#160; &#160; for(i=0; i&lt;n; i++) &#160;scanf(&#34;%d&#34;,&amp;a[i]);<br/>&#160; &#160;&#160;</p>
+<p style="position:absolute;top:561px;left:108px;white-space:nowrap" class="ft95">&#160; &#160; int j;<br/>&#160; &#160; int occurence=0;<br/>&#160; &#160; int positions[n]={};<br/>&#160; &#160; for(i=0; i&lt;n; i++){</p>
+<p style="position:absolute;top:652px;left:108px;white-space:nowrap" class="ft95">&#160; &#160; &#160; &#160; if(a[i]==a[i-1] || a[i]==958358375) &#160; &#160;continue;<br/>&#160; &#160; &#160; &#160; for(j=0; j&lt;n; j++){<br/>&#160; &#160; &#160; &#160; &#160; &#160; if(a[i]==a[j]){<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; if(i!=j) &#160; &#160;a[j]=958358375;<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; occurence++;<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; positions[j]=1;<br/>&#160; &#160; &#160; &#160; &#160; &#160; }<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; &#160; &#160; if(occurence&gt;1){<br/>&#160; &#160; &#160; &#160; &#160; &#160; printf(&#34;Similar element : %d\n&#34;,a[i]);<br/>&#160; &#160; &#160; &#160; &#160; &#160; printf(&#34;Positions :&#34;);<br/>&#160; &#160; &#160; &#160; &#160; &#160; for(j=0; j&lt;n; j++) &#160;if(positions[j]) &#160; &#160;printf(&#34; %d&#34;,j+1);<br/>&#160; &#160; &#160; &#160; &#160; &#160; printf(&#34;\nOccurence : %d\n&#34;,occurence);<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; &#160; &#160; occurence=0;<br/>&#160; &#160; &#160; &#160; for(j=0;j&lt;n;j++) &#160; &#160;positions[j]=0;<br/>&#160; &#160; }<br/>}</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>file-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft100{font-size:20px;font-family:DZZZZZ+Roboto-MediumItalic;color:#000000;}
+	.ft101{font-size:20px;font-family:CZZZZZ+Roboto;color:#008000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page10-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="file010.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft100"><i>Status :&#160;</i></p>
+<p style="position:absolute;top:108px;left:178px;white-space:nowrap" class="ft101">Correct</p>
+<p style="position:absolute;top:108px;left:691px;white-space:nowrap" class="ft100"><i>Marks : 10/10</i></p>
+</div>
+</body>
+</html>
